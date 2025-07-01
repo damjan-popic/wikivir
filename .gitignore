@@ -1,0 +1,5 @@
+normalized_corpus.xml
+/venv
+venv/
+__pycache__/
+*.pyc
