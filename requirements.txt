@@ -1,0 +1,6 @@
+# --------------- topic-modelling requirements -----------------
+# Pinned to the latest stable releases as of 1 July 2025
+bertopic[visualization]==0.17.0        # brings keybert, umap-learn, hdbscan, plotly …
+sentence-transformers==4.1.0           # embedding back-end
+torch==2.2.1+cpu                       # CPU-only wheel; PyPI will pick the correct tag
+# --------------------------------------------------------------
