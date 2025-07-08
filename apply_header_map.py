@@ -1,214 +1,138 @@
-#!/usr/bin/env python3
-"""apply_header_map.py – Batch‑normalise <doc …> headers using header_map.csv
-
-Typical usage:
-    # Write cleaned files to ./clean relative to originals
-    python apply_header_map.py corpus/**/*.xml
-
-    # Overwrite originals *after* a backup – be careful!
-    python apply_header_map.py --in‑place corpus/**/*.xml
-
-The script:
-    • Loads *header_map.csv* (exact + regex rules) – same format as header_curator.
-    • Scans each <doc …> header, promoting tokens into proper attributes
-      (author, year, century, genre) and removing them from <categories>.
-    • Fills in *century* from *year* if still missing.
-    • Rewrites the file either in‑place or into a parallel directory tree
-      under ./clean/ (default).
-    • Logs any still‑unmapped tokens to *unmapped.log* for later review.
-
-Only std‑lib modules; no external deps.
+#!/usr/bin/env python3.9
 """
-from __future__ import annotations
+apply_header_map.py – normalize document headers using header_map.csv
 
+Usage:
+    python apply_header_map.py input.xml output.xml
+    python apply_header_map.py --in-place input.xml
+
+Reads header_map.csv in cwd for literal and regex rules,
+filters out JUNK tokens listed in junk_tokens.txt,
+and rewrites each <doc> header with promoted attributes.
+"""
 import argparse
 import csv
-import os
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
 
-# ---------------------------------------------------------------------------
-# Settings & regex helpers
-# ---------------------------------------------------------------------------
-DEFAULT_MAP_FILE = "header_map.csv"
-OUT_DIR = "clean"
-DOC_HEADER_RE = re.compile(r"<doc\s+([^>]*?)>")
-ATTR_RE = re.compile(r"(\w+)=\"(.*?)\"")
+# ------------ load JUNK set ------------------------------------------------
+JUNK_FILE = Path('junk_tokens.txt')
+if JUNK_FILE.exists():
+    JUNK = set(JUNK_FILE.read_text(encoding='utf-8').splitlines())
+else:
+    JUNK = set()
 
-# ---------------------------------------------------------------------------
-# Mapping loader (shared with header_curator)
-# ---------------------------------------------------------------------------
-
-def load_map(path: Path) -> Tuple[Dict[str, Tuple[str, str]], List[Tuple[re.Pattern, str, str]]]:
-    literals: Dict[str, Tuple[str, str]] = {}
-    regexes: List[Tuple[re.Pattern, str, str]] = []
-    if not path.exists():
-        print(f"⚠️  Map file {path} not found – continuing with empty map.")
-        return literals, regexes
-
-    with path.open(newline="", encoding="utf-8") as fh:
-        for raw, field, value in csv.reader(fh):
-            if raw.startswith("^"):
-                regexes.append((re.compile(raw), field, value))
-            else:
-                literals[raw] = (field, value)
+# ------------ load mapping -------------------------------------------------
+def load_maps(csv_path: Path):
+    literals = {}
+    regexes = []  # list of (pattern, field, value_template)
+    for raw, field, val in csv.reader(csv_path.open(encoding='utf-8')):
+        # skip duplicates
+        if raw in literals:
+            continue
+        if raw.startswith('r"') or raw.startswith("r'"):
+            # regex rule
+            pat = raw[2:-1]
+            regexes.append((re.compile(pat), field, val))
+        else:
+            literals[raw] = (field, val)
     return literals, regexes
 
-# ---------------------------------------------------------------------------
-# Core helpers
-# ---------------------------------------------------------------------------
-
-def classify_token(token: str, literals: Dict[str, Tuple[str, str]], regexes: List[Tuple[re.Pattern, str, str]]):
-    """Return (field, value) or ("category", token) if unmapped."""
-    # Exact first
-    if token in literals:
-        return literals[token]
-    # Regex second
-    for pat, field, val_tpl in regexes:
-        m = pat.fullmatch(token)
-        if m:
-            val = val_tpl.format(m=m.group(0), **m.groupdict())
-            return field, val
-    # Default – leave as category
-    return "category", token
+# ------------ header processing --------------------------------------------
+ATTR_RE = re.compile(r"(<doc)([^>]*?)>")
 
 
-def compute_century(year: str) -> str:
-    try:
-        y = int(year)
-        return str((y - 1) // 100 + 1)
-    except ValueError:
-        return ""
-
-
-# Attribute output order for prettiness
-ATTR_ORDER = [
-    "title",
-    "author",
-    "year",
-    "century",
-    "genre",
-    "categories",
-]
-
-# ---------------------------------------------------------------------------
-# Processing of a single header line
-# ---------------------------------------------------------------------------
-
-def process_header(line: str, literals, regexes, unmapped: set[str]):
-    m = DOC_HEADER_RE.search(line)
+def process_header(line: str, literals: dict, regexes: list) -> str:
+    """Promote mapped tokens to attributes, filter out JUNK, rebuild header line."""
+    m = ATTR_RE.search(line)
     if not m:
-        return line  # untouched
+        return line
 
-    attr_blob = m.group(1)
-    attrs = {k.lower(): v for k, v in ATTR_RE.findall(attr_blob)}
+    prefix, body = m.group(1), m.group(2)
+    # extract existing attributes
+    # find categories="..."
+    cats_match = re.search(r'categories="([^"]*)"', body)
+    categories = cats_match.group(1) if cats_match else ''
+    # split and filter
+    slugs = [tok.strip() for tok in categories.split(',') if tok.strip()]
+    slugs = [tok for tok in slugs if tok not in JUNK]
 
-    # Tokenise categories (lower‑case)
-    cat_tokens = []
-    if "categories" in attrs and attrs["categories"]:
-        cat_tokens = [t.strip().lower() for t in attrs["categories"].split(",") if t.strip()]
+    # build new attrs dict
+    attrs = {}
+    # carry over title, author, year, century if present
+    for attr in ['title','author','year','century']:
+        m2 = re.search(fr'{attr}="([^"]*)"', body)
+        if m2:
+            attrs[attr] = m2.group(1)
 
-    # Classify each token in categories
-    remaining_cats: List[str] = []
-    for tok in cat_tokens:
-        field, value = classify_token(tok, literals, regexes)
-        if field == "category":
-            remaining_cats.append(tok)  # keep
+    # promote from slugs
+    remaining = []
+    for tok in slugs:
+        if tok in literals:
+            field, val = literals[tok]
+            attrs[field] = val
         else:
-            # Promote
-            if field not in attrs or not attrs[field]:
-                attrs[field] = value
-            # If attr exists but short (e.g. "Kosovel"), prefer canonical if matches
-            elif field == "author" and len(attrs[field]) < len(value):
-                attrs[field] = value
+            matched = False
+            for pat, field, val in regexes:
+                if pat.search(tok):
+                    attrs[field] = pat.sub(val, tok)
+                    matched = True
+                    break
+            if not matched:
+                remaining.append(tok)
 
-    # Also try to normalise existing author / title tokens directly
-    for key in ["author", "genre", "century", "year"]:
-        if key in attrs and attrs[key]:
-            tok_lc = attrs[key].lower().replace(" ", "_")
-            field, value = classify_token(tok_lc, literals, regexes)
-            if field == key:
-                attrs[key] = value
+    # rebuild header
+    parts = [prefix]
+    for k,v in attrs.items():
+        parts.append(f'{k}="{v}"')
+    if remaining:
+        parts.append('categories="' + ', '.join(remaining) + '"')
+    parts.append('>')
+    return ' '.join(parts) + '\n'
 
-    # Deduce century from year if needed
-    if "year" in attrs and attrs.get("year") and not attrs.get("century"):
-        c = compute_century(attrs["year"])
-        if c:
-            attrs["century"] = c
+# ------------ file processing ----------------------------------------------
 
-    # Reconstruct categories attribute
-    if remaining_cats:
-        attrs["categories"] = ", ".join(remaining_cats)
-    elif "categories" in attrs:
-        del attrs["categories"]
-
-    # Track unmapped tokens for report
-    for tok in remaining_cats:
-        unmapped.add(tok)
-
-    # Rebuild header line
-    ordered = []
-    for key in ATTR_ORDER:
-        if key in attrs:
-            ordered.append(f'{key}="{attrs[key]}"')
-    # plus any extras we didn't know about
-    for key, val in attrs.items():
-        if key not in ATTR_ORDER:
-            ordered.append(f'{key}="{val}"')
-    new_header = "<doc " + " ".join(ordered) + ">"
-    return line.replace(m.group(0), new_header, 1)
-
-# ---------------------------------------------------------------------------
-# File‑level driver
-# ---------------------------------------------------------------------------
-
-def process_file(path: Path, out_path: Path, literals, regexes, unmapped):
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("r", encoding="utf-8", errors="ignore") as inp, out_path.open("w", encoding="utf-8") as outp:
+def process_file(src: Path, dst: Path, literals, regexes):
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    with src.open('r', encoding='utf-8', errors='ignore') as inp, \
+         dst.open('w', encoding='utf-8') as out:
         for line in inp:
-            if "<doc" in line:
-                line = process_header(line, literals, regexes, unmapped)
-            outp.write(line)
+            if line.lstrip().startswith('<doc '):
+                line = process_header(line, literals, regexes)
+            out.write(line)
 
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
+# ------------ main ---------------------------------------------------------
 
-def main(argv: Optional[List[str]] = None):
-    ap = argparse.ArgumentParser(description="Batch‑normalise corpus headers using header_map.csv")
-    ap.add_argument("files", nargs="+", help="Input corpus files (supports wildcards if shell does)")
-    ap.add_argument("--map", default=DEFAULT_MAP_FILE, help="Path to header_map.csv")
-    ap.add_argument("--in‑place", action="store_true", help="Overwrite files instead of writing to ./clean/")
-    args = ap.parse_args(argv)
+def main():
+    ap = argparse.ArgumentParser(description='Apply header_map.csv to XML corpus')
+    ap.add_argument('--in-place', action='store_true', help='overwrite input file')
+    ap.add_argument('input', help='path to input XML or corpus directory')
+    ap.add_argument('output', nargs='?', help='path to output XML or directory')
+    args = ap.parse_args()
 
-    literals, regexes = load_map(Path(args.map))
-
-    unmapped: set[str] = set()
-    total = len(args.files)
-    for idx, file in enumerate(args.files, 1):
-        in_path = Path(file)
-        if args.in_place:
-            out_path = in_path
-        else:
-            out_path = Path(OUT_DIR) / in_path
-        process_file(in_path, out_path, literals, regexes, unmapped)
-        print(f"[{idx}/{total}] {in_path} → {out_path}")
-
-    # Write unmapped report
-    if unmapped:
-        with open("unmapped.log", "w", encoding="utf-8") as fh:
-            for tok in sorted(unmapped):
-                fh.write(tok + "\n")
-        print(f"⚠️  {len(unmapped)} tokens remain unmapped – see unmapped.log")
+    inp = Path(args.input)
+    if args.in_place:
+        out = inp.with_suffix('.tmp')
     else:
-        print("✅ All tokens mapped – corpus clean!")
+        if not args.output:
+            sys.exit('Error: output path required when not using --in-place')
+        out = Path(args.output)
 
+    csv_path = Path('header_map.csv')
+    if not csv_path.exists():
+        sys.exit('header_map.csv not found in current directory.')
 
-if __name__ == "__main__":  # pragma: no cover
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("Interrupted – exiting early.")
-        sys.exit(1)
+    literals, regexes = load_maps(csv_path)
+
+    # single file only
+    process_file(inp, out, literals, regexes)
+
+    if args.in_place:
+        out.replace(inp)
+        print(f'✓ Replaced {inp} in-place')
+    else:
+        print(f'✓ Wrote cleaned file to {out}')
+
+if __name__ == '__main__':
+    main()

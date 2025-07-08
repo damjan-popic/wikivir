@@ -1934,18 +1934,18 @@ v_sivem_jutru,title,V sivem jutru
 opolnoci_2,title,Opolnoči (2)
 pred_mestom,title,Pred mestom
 oce_nas,title,Oče naš
-krscanske_molitve,genre,krscanske molitve
+krscanske_molitve,genre,krščanske molitve
 sivilja_in_skarjice,title,Šivilja in škarjice
-slovenska_mladinska_knjizevnost,genre,slovenska mladinska knjizevnost
+slovenska_mladinska_knjizevnost,genre,slovenska mladinska književnost
 v_slovo_mozu_postenjaku_sporocilo_iz_doline,title,V slovo možu poštenjaku (sporočilo iz Doline)
 clanki,genre,clanki
 osmrtnica_josipa_pangerca,title,Osmrtnica Josipa Pangerca
 nezbrano_delo_franceta_preserna,title,Nezbrano delo Franceta Prešerna
-ljudske_pesmi,genre,ljudske pesmi
-nemske_pesmi,genre,nemske pesmi
+ljudske_pesmi,genre,ljudske_pesmi
+nemske_pesmi,genre,nemske_pesmi
 poezija,genre,poezija
 sveto_pismo,title,Sveto pismo
-sveto_pismo,genre,sveto pismo
+sveto_pismo,genre,sveto_pismo
 pesem_o_ajdi,title,Pesem o ajdi
 pesem_josip_murn_2,title,"Pesem (Josip Murn, 2)"
 vitki_hmelj_na_polju_raste,title,Vitki hmelj na polju raste
@@ -2026,7 +2026,7 @@ pismo_josipa_murna_otonu_zupancicu_13_marec_1898,title,"Pismo Josipa Murna Otonu
 pismo_a_gaberscka_ivanu_prijatelju_23_maj_1898,title,"Pismo A. Gaberščka Ivanu Prijatelju, 23. maj 1898"
 pisma_franceta_preserna,title,Pisma Franceta Prešerna
 od_lepe_vide,title,Od lepe Vide
-bivanjska_tematika,genre,bivanjska tematika
+bivanjska_tematika,genre,bivanjska_tematika
 ljubezen,genre,ljubezen
 smreka,title,Smreka
 ob_rabeljskem_jezeru,title,Ob Rabeljskem jezeru
@@ -9851,7 +9851,7 @@ slovenija_slovenija_ti_moja_rana,title,"Slovenija, Slovenija, ti moja rana"
 slovenije_dar,title,Slovenije dar
 slovenka_v_tirolskih_gorah,title,Slovenka v tirolskih gorah
 slovenska_berila_frana_miklosica_od_pionirskih_zacetkov_do_konkurence_antona_janezica,title,Slovenska berila Frana Miklošiča: od pionirskih začetkov do konkurence Antona Janežiča
-slovenska_bcela,publication,Slovenska bčela
+slovenska_bcela,title,Slovenska bčela
 slovenska_djela,title,Slovenska djela
 slovenska_gospodinja,title,Slovenska gospodinja
 slovenska_govorica,title,Slovenska govorica
@@ -9864,8 +9864,8 @@ slovenska_sklenina_miklavzu,title,"Slovenska sklenina, Miklavžu"
 slovenska_srednja_sola_in_nacionalna_vzgoja,title,Slovenska srednja šola in nacionalna vzgoja
 slovenska_umetnost,title,Slovenska umetnost
 slovenska_zvezdna_imena,title,Slovenska zvezdna imena
-slovenska_cbela,publication,Slovenska čbela
-slovenska_zena,publication,Slovenska žena
+slovenska_cbela,title,Slovenska čbela
+slovenska_zena,title,Slovenska žena
 slovenske_avtorice_v_srednjesolskih_berilih_do_prve_svetovne_vojne_povzetek,title,Slovenske avtorice v srednješolskih berilih do prve svetovne vojne (povzetek)
 slovenske_basni_in_zivalske_pravljice,title,Slovenske basni in živalske pravljice
 slovenske_basni_in_zivalske_pravljice_boter_petelin_in_njegova_zgodba,title,Slovenske basni in živalske pravljice /Boter petelin in njegova zgodba
@@ -17988,7 +17988,7 @@ planinski_vestnik,publication,Planinski vestnik
 dela_leta_1907,year,1907
 potopis,genre,potopis
 alpinizem,category,alpinizem
-alpska_poskocnica,genre,alpska poskocnica
+alpska_poskocnica,genre,alpska poskočnica
 ameriski_avtorji,category,ameriski avtorji
 angleski_avtorji,category,angleski avtorji
 dela_leta_1883,year,1883
@@ -18011,8 +18011,8 @@ casopisi,category,casopisi
 cebelarstvo,category,cebelarstvo
 ceski_avtorji,category,ceski avtorji
 ceski_duhovniki,category,ceski duhovniki
-crna_kronika,genre,crna kronika
-crtica,genre,crtica
+crna_kronika,genre,črna kronika
+crtica,genre,črtica
 damijan_de_veuster,author,Damijan de Veuster
 dekliski_list,publication,Dekliški list
 dela_leta_1184,year,1184
@@ -18166,7 +18166,7 @@ jezikoslovje,category,jezikoslovje
 josipina_urbancic_turnograjska,author,Josipina Urbančič Turnograjska
 josipkostanjevec,author,Josip Kostanjevec
 jozef_ii_habsburskolotarinski,author,Franc Jožef II. Habsburško-Lotarinški
-jubilejni_clanki,genre,jubilejni clanki
+jubilejni_clanki,genre,jubilejni članki
 jules_de_premaray,author,Jules De Premaray
 juskozak,author,Juš Kozak
 karel_chodounsky_ml,author,Karel Chodounsky ml.
@@ -18179,7 +18179,7 @@ klinar,author,Stanko Klinar
 kmetijski_list,publication,Kmetijski list
 kmetijstvo,category,kmetijstvo
 knjige,category,knjige
-kolportazni_romani,genre,kolportazni romani
+kolportazni_romani,genre,kolportažni romani
 koncilski_odloki,genre,koncilski odloki
 koroska_knjizevnost,category,koroska knjizevnost
 kratka_sodobna_pravljica,genre,kratka sodobna pravljica
@@ -18251,8 +18251,8 @@ osebno_izpovedne_pesmi,genre,osebnoizpovedne pesmi
 osebnoizpovedna_poezija,genre,osebnoizpovedna poezija
 osebnoizpovedne_pesmi,genre,osebnoizpovedne pesmi
 pamfleti,genre,pamfleti
-papeske_bule,genre,papeske bule
-papeske_okroznice,genre,papeske okroznice
+papeske_bule,genre,papeške bule
+papeske_okroznice,genre,papeške okrožnice
 parabola,genre,parabola
 parodije,genre,parodije
 partiture,genre,partiture
@@ -18269,15 +18269,15 @@ podlistek,genre,podlistek
 josip_knaflic,author,Josip Knaflic
 poezija_v_prozi,genre,poezija v prozi
 poezija_z_otroke,genre,poezija za otroke
-poezija_za_malcke,genre,poezija za malcke
+poezija_za_malcke,genre,poezija za malčke
 poezija_za_mladino,genre,poezija za mladino
 poezija_za_otroke,genre,poezija za otroke
 poezije_3,title,Poezije 3
 poezije_za_otroke,genre,poezije za otroke
 pokrajinska_povest,genre,pokrajinska povest
 pokrajinske_povesti,genre,pokrajinske povesti
-politicna_satira,genre,politicna satira
-politicni_romani,genre,politicni romani
+politicna_satira,genre,politična satira
+politicni_romani,genre,politični romani
 politika,category,politika
 poljski_avtorji,author,Poljski avtorji
 postmodernizem,category,postmodernizem
@@ -18285,9 +18285,9 @@ potopisna_novela,genre,potopisna novela
 pridige,genre,pridige
 prilike_in_povesti,genre,prilike in povesti
 priredbe,genre,priredbe
-prirocniki,genre,prirocniki
+prirocniki,genre,priročniki
 privaten_tisk,category,privaten tisk
-propagandne_brosure,genre,propagandne brosure
+propagandne_brosure,genre,propagandne brošure
 protestantizem,category,protestantizem
 proza_z_otroke,genre,proza z otroke
 proza_za_mladino,genre,proza za mladino
@@ -18313,7 +18313,7 @@ slovenske_kratke_pravljice,genre,slovenske kratke pravljice
 slovenske_ljudske_pesmi,genre,slovenske ljudske pesmi
 slovenske_ljudske_pravljice,genre,slovenske ljudske pravljice
 slovenske_pravljice,genre,slovenske pravljice
-slovenske_vecrnice,genre,slovenske vecernice
+slovenske_vecrnice,genre,slovenske večernice
 slovenske_zbirke,category,slovenske zbirke
 slovenski_avtorji,author,Slovenski avtorji
 slovenski_duhovniki,author,Slovenski duhovniki
@@ -18327,7 +18327,7 @@ srbski_avtorji,author,Srbski avtorji
 srednje_dolga_proza,genre,srednje dolga proza
 strip,genre,strip
 svedski_avtorji,author,Švedski avtorji
-taboriscna_poezija,genre,taboriscna poezija
+taboriscna_poezija,genre,taboriščna poezija
 teatrologija,category,teatrologija
 tilka_lamprehtdusica,author,Tilka Lampreht Dušica
 tine_debeljak,author,Tine Debeljak
@@ -18338,10 +18338,10 @@ trdina,author,Janez Trdina
 uganke_za_otroke,genre,uganke za otroke
 utopija,genre,utopija
 pripovedna_proza,genre,pripovedna proza
-vecerniska_povest,genre,vecerniska povest
+vecerniska_povest,genre,večerniška povest
 zabavljivi_napisi,category,zabavljivi napisi
 zakoni,category,zakoni
-zaloigra,genre,zaloigra
+zaloigra,genre,žaloigra
 zbirka,category,zbirka
 zbirka_slovenskih_mladinskih_leposlovnih_besedil,category,zbirka slovenskih mladinskih leposlovnih besedil
 zbirke,category,zbirke
