@@ -3,3 +3,9 @@ normalized_corpus.xml
 venv/
 __pycache__/
 *.pyc
+.curation/
+.classla/
+clean/
+classla/
+.venv/
+.meta/
