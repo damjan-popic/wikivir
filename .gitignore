@@ -9,3 +9,5 @@ clean/
 classla/
 .venv/
 .meta/
+cache.sqlite
+.statistics
