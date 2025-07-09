@@ -111,6 +111,8 @@ def main() -> None:
                 if len(batch_texts) >= batch_size:
                     try:
                         docs = nlp(batch_texts)
+                        if isinstance(docs, classla.Document):
+                            docs = [docs] # FIX: Ensure docs is always a list
                         for doc_obj in docs:
                             fout.write(merge_ner(doc_obj) + "\n")
                     except Exception as e:
@@ -127,6 +129,8 @@ def main() -> None:
         if batch_texts:
             try:
                 docs = nlp(batch_texts)
+                if isinstance(docs, classla.Document):
+                    docs = [docs] # FIX: Ensure docs is always a list
                 for doc_obj in docs:
                     fout.write(merge_ner(doc_obj) + "\n")
             except Exception as e:
