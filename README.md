@@ -18,12 +18,12 @@ A reproducible pipeline for turning the messy Slovene Wikisource dump (\~50 M w
 │   ├─ validate_header_map.py   # sanity checks
 │   ├─ apply_header_map.py      # rewrite <doc …> headers (safe in‑place)
 │   ├─ ws_crawler.py            # crawl authors/genres (category tree)
-│   ├─ ws_fingerprint_enrich.py # overnight fingerprint‑based enrich
+│   ├─ ws_fingerprint_enrich.py # fingerprint‑based enrich
 │   ├─ normalize_categories.py  # ASCII + spaces for category values
 │   ├─ normalize_genres.py      # ASCII + spaces for genre values
 │   ├─ run_classla_xml.py       # stream‑annotate with Classla
 │   ├─ export_metadata_counts.py# coverage stats
-│   └─ topic_model.py           # BERTopic/LDA (run in .topic_env)
+│   └─ topic_model.py           # BERTopic/LDA
 └─ stats/                       # generated frequency tables
 ```
 
