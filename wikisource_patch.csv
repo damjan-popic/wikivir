@@ -1,51 +1,86 @@
+17_3_1993,category,17 3 1993
+17_stoletje,category,17 stoletje
 18_stoletje,category,18 stoletje
 19_stoletje,category,19 stoletje
 20_stoletje,category,20 stoletje
+21_stoletje,category,21 stoletje
+a_m_basic,category,a m basic
+a_roj,category,a roj
 a_semrajc,category,a semrajc
 a_zagar,category,a zagar
 a_zankl,category,a zankl
+abeceda,category,abeceda
 ada_negri,category,ada negri
 ada_skerl,category,ada skerl
 adam_mickiewicz,category,adam mickiewicz
+adam_milkovic,category,adam milkovic
 adam_zima,category,adam zima
+adela_milcinovic,category,adela milcinovic
 adolphe_jaime,category,adolphe jaime
 agustin_moreto_y_cavana,category,agustin moreto y cavana
 ahacij_strzinar,category,ahacij strzinar
 aksinja_kermauner,category,aksinja kermauner
+albert_merk,category,albert merk
+albin_cebular,category,albin cebular
+albin_prepeluh,category,albin prepeluh
 aleksander_sergejevic_puskin,category,aleksander sergejevic puskin
 aleksandra_pinteric,category,aleksandra pinteric
 alenka_zumbar_klopcic,category,alenka zumbar klopcic
+alexandros_papadiamantis,category,alexandros papadiamantis
 aljazev_stolp,category,aljazev stolp
+alojz_ihan,category,alojz ihan
 alojz_knafelc,category,alojz knafelc
+alojz_kraigher,category,alojz kraigher
+alojz_pikel,category,alojz pikel
 alojzij_ambrozic,category,alojzij ambrozic
 alojzij_carli,category,alojzij carli
+alojzij_foljk,category,alojzij foljk
 alojzij_kokalj,category,alojzij kokalj
 alojzij_merhar,category,alojzij merhar
 alojzij_peterlin,category,alojzij peterlin
 alojzij_remec,category,alojzij remec
 alojzij_stroj,category,alojzij stroj
 alphonse_daudet,category,alphonse daudet
+alpska_poskocnica,category,alpska poskocnica
 amerikanski_slovenec,category,amerikanski slovenec
+ameriska_domovina,category,ameriska domovina
 ana_fabijan,category,ana fabijan
 ana_fabijan_sonja,category,ana fabijan sonja
 ana_lebar,category,ana lebar
 ana_wambrechtsamer,category,ana wambrechtsamer
 andreas_hofer,category,andreas hofer
+andrej_budal,category,andrej budal
 andrej_cizl,category,andrej cizl
 andrej_einspieler,category,andrej einspieler
 andrej_gollmayr,category,andrej gollmayr
 andrej_gutman,category,andrej gutman
+andrej_kalec,category,andrej kalec
+andrej_kobal,category,andrej kobal
+andrej_kokot,category,andrej kokot
+andrej_kovac,category,andrej kovac
 andrej_perne,category,andrej perne
 andrej_rozman_roza,category,andrej rozman roza
 andreja_borin,category,andreja borin
 andreja_vukmir,category,andreja vukmir
+andrew_kobal,category,andrew kobal
 anica_cernej,category,anica cernej
+anna_krasna_pracek,category,anna krasna pracek
+anne_frank,category,anne frank
 anonimno,category,anonimno
+anton_adamic,category,anton adamic
 anton_aleksander_auersperg,category,anton aleksander auersperg
+anton_alojzij_wolf,category,anton alojzij wolf
 anton_askerc,category,anton askerc
 anton_brezovnik,category,anton brezovnik
 anton_danilo,category,anton danilo
+anton_dvorak,category,anton dvorak
+anton_funtek,category,anton funtek
+anton_gaspari,category,anton gaspari
+anton_hribar,category,anton hribar
+anton_ingolic,category,anton ingolic
 anton_janezic,category,anton janezic
+anton_jehart,category,anton jehart
+anton_knez,category,anton knez
 anton_koder,category,anton koder
 anton_kos,category,anton kos
 anton_krempl,category,anton krempl
@@ -59,15 +94,28 @@ anton_murko,category,anton murko
 anton_novacan,category,anton novacan
 anton_ocvirk,category,anton ocvirk
 anton_pavlovic_cehov,category,anton pavlovic cehov
+anton_slodnjak,category,anton slodnjak
+anton_sovre,category,anton sovre
 anton_strazar,category,anton strazar
 anton_svigelj,category,anton svigelj
+anton_terbovec,category,anton terbovec
 anton_tomaz_linhart,category,anton tomaz linhart
+anton_trenc,category,anton trenc
+anton_trstenjak_1853,category,anton trstenjak 1853
+anton_umek,category,anton umek
+anton_vodnik,category,anton vodnik
 anton_zakelj,category,anton zakelj
 anton_zlogar,category,anton zlogar
 antonin_chraska,category,antonin chraska
+apokrifna_judovska_dela,category,apokrifna judovska dela
+apokrifna_krscanska_dela,category,apokrifna krscanska dela
 arkadij_timofejevic_avercenko,category,arkadij timofejevic avercenko
+arkadij_videmsek,category,arkadij videmsek
+arnost_adamic,category,arnost adamic
 august_senoa,category,august senoa
+august_von_kotzebue,category,august von kotzebue
 avgust_zavbi,category,avgust zavbi
+avtobiografije,category,avtobiografije
 avtomaticni_predlogi_za_brisanje,category,avtomaticni predlogi za brisanje
 avtorji_a,category,avtorji a
 avtorji_b,category,avtorji b
@@ -100,6 +148,8 @@ avtorji_s,category,avtorji s
 avtorji_stari_103_leta,category,avtorji stari 103 leta
 avtorji_stari_19_let,category,avtorji stari 19 let
 avtorji_stari_20_let,category,avtorji stari 20 let
+avtorji_stari_21_let,category,avtorji stari 21 let
+avtorji_stari_25_let,category,avtorji stari 25 let
 avtorji_stari_30_let,category,avtorji stari 30 let
 avtorji_stari_31_let,category,avtorji stari 31 let
 avtorji_stari_32_let,category,avtorji stari 32 let
@@ -171,38 +221,67 @@ avtorji_u,category,avtorji u
 avtorji_v,category,avtorji v
 avtorji_w,category,avtorji w
 avtorji_z,category,avtorji z
+b_m_vogel,category,b m vogel
 bajke,category,bajke
 bajke_in_povesti_o_gorjancih,genre,bajke in povesti o gorjancih
+balade,category,balade
+balade_in_romance,genre,balade in romance
+balant_janezic,category,balant janezic
 balonckov_peter_v_prometu,category,balonckov peter v prometu
 barbara_gregoric_gorenc,category,barbara gregoric gorenc
 barbara_habic_pregl,category,barbara habic pregl
 barbara_hanus,category,barbara hanus
+bengalski_avtorji,category,bengalski avtorji
+berchtesgaden,category,berchtesgaden
+berilo,category,berilo
 bernard_spanheimski,category,bernard spanheimski
+berta_golob,category,berta golob
 besedila_z_dliba,category,besedila z dliba
+besednik,category,besednik
+bibliografije,category,bibliografije
 bilko_pomaga_cebelici_eli,category,bilko pomaga cebelici eli
+bina_stampe_zmavc,category,bina stampe zmavc
 biografije,category,biografije
 blazeni,category,blazeni
 bogomir_magajna,category,bogomir magajna
+bogumil_vdovic,category,bogumil vdovic
+boj_na_poziralniku,category,boj na poziralniku
 boris_a_novak,category,boris a novak
+boris_pahor,category,boris pahor
+boris_pintar,category,boris pintar
+borut_strazar,category,borut strazar
 bozic,category,bozic
 bozicne_zgodbe,category,bozicne zgodbe
 bozidar_flegeric,category,bozidar flegeric
 bozji_sluzabniki,category,bozji sluzabniki
+bozo_vodusek,category,bozo vodusek
+branislav_nusic,category,branislav nusic
 branka_hubman,category,branka hubman
+branko_rudolf,category,branko rudolf
+branko_zuzek,category,branko zuzek
 bratko_kreft,category,bratko kreft
 bret_harte,category,bret harte
 brez_lokalne_slike_in_brez_slike_v_wikipodatkih,category,brez lokalne slike in brez slike v wikipodatkih
 brez_lokalne_slike_slika_je_v_wikipodatkih,category,brez lokalne slike slika je v wikipodatkih
 brez_lokalnega_datuma_rojstva_in_brez_datuma_rojstva_v_wikipodatkih,category,brez lokalnega datuma rojstva in brez datuma rojstva v wikipodatkih
 brizinski_spomeniki,category,brizinski spomeniki
+brkini,category,brkini
+brstje_zbirka_razlicnih_pesmij,genre,brstje zbirka razlicnih pesmij
 brucovanja,category,brucovanja
+camillo_marulli,category,camillo marulli
+carl_snoilsky,category,carl snoilsky
+carniolia,category,carniolia
+caroznanke,category,caroznanke
 casopisi,publication,casopisi
 castitljivi_bozji_sluzabniki,category,castitljivi bozji sluzabniki
 celje,category,celje
 celovec,category,celovec
 charles_dickens,category,charles dickens
 charles_nodier,category,charles nodier
+christoph_von_schmid,category,christoph von schmid
+christophoros,category,christophoros
 cikel_pesmi_deklicje_ljubezni,genre,cikel pesmi deklicje ljubezni
+cil,category,cil
 cilka_zagar,category,cilka zagar
 ciril_jeglic,category,ciril jeglic
 clanki,category,clanki
@@ -214,14 +293,22 @@ clevelandska_amerika,category,clevelandska amerika
 clovek_in_noc_jarc,category,clovek in noc jarc
 crtice,category,crtice
 crtomir_sinkovec,category,crtomir sinkovec
+cubejska_prigoda,category,cubejska prigoda
+cuk_na_palici,category,cuk na palici
 cvetka_bevc,category,cvetka bevc
 cvetka_sokolov,category,cvetka sokolov
 cvetko_golar,category,cvetko golar
+damijan_de_veuster,category,damijan de veuster
+damijan_perne,category,damijan perne
+damir_feigel,category,damir feigel
 dana_kobler,category,dana kobler
 dane_zajc,category,dane zajc
 danica_elbl,category,danica elbl
+danila_zorz,category,danila zorz
 danski_avtorji,category,danski avtorji
 darinka_kobal,category,darinka kobal
+darinka_topolovec,category,darinka topolovec
+david_bandelj,category,david bandelj
 davorin_petancic,category,davorin petancic
 davorin_trstenjak,category,davorin trstenjak
 dela_1,category,dela 1
@@ -243,10 +330,32 @@ dela_i,category,dela i
 dela_j,category,dela j
 dela_k,category,dela k
 dela_l,category,dela l
+dela_leta_1184,category,dela leta 1184
+dela_leta_1294,category,dela leta 1294
+dela_leta_1300,category,dela leta 1300
+dela_leta_1302,category,dela leta 1302
+dela_leta_1415,category,dela leta 1415
+dela_leta_1417,category,dela leta 1417
+dela_leta_1418,category,dela leta 1418
+dela_leta_1435,category,dela leta 1435
+dela_leta_1439,category,dela leta 1439
+dela_leta_1441,category,dela leta 1441
+dela_leta_1452,category,dela leta 1452
+dela_leta_1484,category,dela leta 1484
+dela_leta_1516,category,dela leta 1516
+dela_leta_1537,category,dela leta 1537
+dela_leta_1579,category,dela leta 1579
 dela_leta_1584,category,dela leta 1584
+dela_leta_1715,category,dela leta 1715
+dela_leta_1776,category,dela leta 1776
 dela_leta_1800,category,dela leta 1800
+dela_leta_1819,category,dela leta 1819
+dela_leta_1825,category,dela leta 1825
+dela_leta_1828,category,dela leta 1828
 dela_leta_1836,category,dela leta 1836
+dela_leta_1838,category,dela leta 1838
 dela_leta_1840,category,dela leta 1840
+dela_leta_1841,category,dela leta 1841
 dela_leta_1845,category,dela leta 1845
 dela_leta_1849,category,dela leta 1849
 dela_leta_1850,category,dela leta 1850
@@ -254,21 +363,31 @@ dela_leta_1851,category,dela leta 1851
 dela_leta_1852,category,dela leta 1852
 dela_leta_1853,category,dela leta 1853
 dela_leta_1854,category,dela leta 1854
+dela_leta_1855,category,dela leta 1855
+dela_leta_1859,category,dela leta 1859
 dela_leta_1860,category,dela leta 1860
 dela_leta_1861,category,dela leta 1861
 dela_leta_1862,category,dela leta 1862
+dela_leta_1863,category,dela leta 1863
 dela_leta_1864,category,dela leta 1864
 dela_leta_1865,category,dela leta 1865
 dela_leta_1866,category,dela leta 1866
+dela_leta_1867,category,dela leta 1867
 dela_leta_1868,category,dela leta 1868
+dela_leta_1869,category,dela leta 1869
 dela_leta_1870,category,dela leta 1870
 dela_leta_1871,category,dela leta 1871
 dela_leta_1872,category,dela leta 1872
 dela_leta_1873,category,dela leta 1873
 dela_leta_1874,category,dela leta 1874
+dela_leta_1875,category,dela leta 1875
+dela_leta_1876,category,dela leta 1876
+dela_leta_1877,category,dela leta 1877
+dela_leta_1878,category,dela leta 1878
 dela_leta_1879,category,dela leta 1879
 dela_leta_1880,category,dela leta 1880
 dela_leta_1881,category,dela leta 1881
+dela_leta_1882,category,dela leta 1882
 dela_leta_1883,category,dela leta 1883
 dela_leta_1884,category,dela leta 1884
 dela_leta_1885,category,dela leta 1885
@@ -279,6 +398,7 @@ dela_leta_1889,category,dela leta 1889
 dela_leta_1890,category,dela leta 1890
 dela_leta_1891,category,dela leta 1891
 dela_leta_1892,category,dela leta 1892
+dela_leta_1893,category,dela leta 1893
 dela_leta_1894,category,dela leta 1894
 dela_leta_1895,category,dela leta 1895
 dela_leta_1896,category,dela leta 1896
@@ -298,8 +418,10 @@ dela_leta_1909,category,dela leta 1909
 dela_leta_1910,category,dela leta 1910
 dela_leta_1911,category,dela leta 1911
 dela_leta_1912,category,dela leta 1912
+dela_leta_1913,category,dela leta 1913
 dela_leta_1914,category,dela leta 1914
 dela_leta_1915,category,dela leta 1915
+dela_leta_1916,category,dela leta 1916
 dela_leta_1917,category,dela leta 1917
 dela_leta_1918,category,dela leta 1918
 dela_leta_1919,category,dela leta 1919
@@ -325,18 +447,71 @@ dela_leta_1938,category,dela leta 1938
 dela_leta_1939,category,dela leta 1939
 dela_leta_1940,category,dela leta 1940
 dela_leta_1941,category,dela leta 1941
+dela_leta_1942,category,dela leta 1942
 dela_leta_1943,category,dela leta 1943
 dela_leta_1944,category,dela leta 1944
+dela_leta_1945,category,dela leta 1945
+dela_leta_1946,category,dela leta 1946
+dela_leta_1947,category,dela leta 1947
 dela_leta_1948,category,dela leta 1948
+dela_leta_1949,category,dela leta 1949
+dela_leta_1950,category,dela leta 1950
+dela_leta_1952,category,dela leta 1952
+dela_leta_1953,category,dela leta 1953
+dela_leta_1954,category,dela leta 1954
+dela_leta_1956,category,dela leta 1956
+dela_leta_1957,category,dela leta 1957
 dela_leta_1959,category,dela leta 1959
+dela_leta_1961,category,dela leta 1961
+dela_leta_1963,category,dela leta 1963
+dela_leta_1965,category,dela leta 1965
+dela_leta_1966,category,dela leta 1966
+dela_leta_1969,category,dela leta 1969
 dela_leta_1970,category,dela leta 1970
+dela_leta_1971,category,dela leta 1971
+dela_leta_1972,category,dela leta 1972
+dela_leta_1973,category,dela leta 1973
+dela_leta_1974,category,dela leta 1974
+dela_leta_1975,category,dela leta 1975
+dela_leta_1976,category,dela leta 1976
+dela_leta_1977,category,dela leta 1977
+dela_leta_1978,category,dela leta 1978
+dela_leta_1980,category,dela leta 1980
+dela_leta_1981,category,dela leta 1981
+dela_leta_1982,category,dela leta 1982
+dela_leta_1983,category,dela leta 1983
+dela_leta_1985,category,dela leta 1985
+dela_leta_1987,category,dela leta 1987
+dela_leta_1988,category,dela leta 1988
 dela_leta_1990,category,dela leta 1990
+dela_leta_1992,category,dela leta 1992
+dela_leta_1993,category,dela leta 1993
+dela_leta_1995,category,dela leta 1995
+dela_leta_1996,category,dela leta 1996
+dela_leta_1998,category,dela leta 1998
+dela_leta_1999,category,dela leta 1999
+dela_leta_2000,category,dela leta 2000
+dela_leta_2001,category,dela leta 2001
+dela_leta_2003,category,dela leta 2003
 dela_leta_2004,category,dela leta 2004
+dela_leta_2005,category,dela leta 2005
+dela_leta_2006,category,dela leta 2006
+dela_leta_2007,category,dela leta 2007
 dela_leta_2008,category,dela leta 2008
 dela_leta_2009,category,dela leta 2009
+dela_leta_2010,category,dela leta 2010
+dela_leta_2011,category,dela leta 2011
 dela_leta_2012,category,dela leta 2012
+dela_leta_2013,category,dela leta 2013
 dela_leta_2014,category,dela leta 2014
+dela_leta_2015,category,dela leta 2015
+dela_leta_2016,category,dela leta 2016
+dela_leta_2017,category,dela leta 2017
 dela_leta_2018,category,dela leta 2018
+dela_leta_2019,category,dela leta 2019
+dela_leta_2020,category,dela leta 2020
+dela_leta_2021,category,dela leta 2021
+dela_leta_2022,category,dela leta 2022
 dela_m,category,dela m
 dela_n,category,dela n
 dela_o,category,dela o
@@ -347,119 +522,241 @@ dela_s,category,dela s
 dela_t,category,dela t
 dela_u,category,dela u
 dela_v,category,dela v
+dela_v_anglescini,category,dela v anglescini
 dela_v_bohoricici,category,dela v bohoricici
+dela_v_francoscini,category,dela v francoscini
+dela_v_hrvascini,category,dela v hrvascini
+dela_v_italijanscini,category,dela v italijanscini
+dela_v_latinscini,category,dela v latinscini
+dela_v_madzarscini,category,dela v madzarscini
 dela_v_nemscini,category,dela v nemscini
+dela_v_portugalscini,category,dela v portugalscini
 dela_v_prekmurscini,category,dela v prekmurscini
+dela_v_srbohrvascini,category,dela v srbohrvascini
+dela_v_srbscini,category,dela v srbscini
 dela_vec_avtorjev,category,dela vec avtorjev
 dela_w,category,dela w
 dela_x,category,dela x
 dela_y,category,dela y
 dela_z,category,dela z
 delne_skrbine,category,delne skrbine
+desa_muck,category,desa muck
+dijaski_list_gospodicna_cizara,publication,dijaski list gospodicna cizara
+dim_zupan,category,dim zupan
+dnevniki,publication,dnevniki
 dobrcan,category,dobrcan
 dolenjske_novice,category,dolenjske novice
 dolenjski_list,publication,dolenjski list
 dom_in_svet,category,dom in svet
+domaci_prijatelj,category,domaci prijatelj
 dominik_smole,category,dominik smole
 domobranstvo,category,domobranstvo
 domoljub,category,domoljub
 domovina,category,domovina
+domovinska_pesem,category,domovinska pesem
 dora_gruden,category,dora gruden
 dragica_gracner,category,dragica gracner
+drago_bajc,category,drago bajc
 dragotin_kette,category,dragotin kette
 dragotin_loncar,category,dragotin loncar
+dramaticno_drustvo,genre,dramaticno drustvo
+dramaticno_drustvo_v_ljubljani,genre,dramaticno drustvo v ljubljani
 drustvene_vesti,category,drustvene vesti
 druzba,category,druzba
 druzina_1929,category,druzina 1929
+druzinski_tednik,publication,druzinski tednik
 edgar_allan_poe,category,edgar allan poe
 edgar_wallace,category,edgar wallace
 edinost,category,edinost
 edward_bulwer_lytton,category,edward bulwer lytton
+ekumenski_koncili,category,ekumenski koncili
+elegije,category,elegije
+emanuel_josip_kovacic,category,emanuel josip kovacic
+emil_adamic,category,emil adamic
+emil_korytko,category,emil korytko
+enakopravnost,category,enakopravnost
+engelbert_gangl,category,engelbert gangl
 epska_pesnitev,category,epska pesnitev
+ernest_tomec,category,ernest tomec
 erotika_cankar,category,erotika cankar
+ervin_fritz,category,ervin fritz
+eseji,category,eseji
 estetika,category,estetika
+etbin_kristan,category,etbin kristan
 eugene_scribe,category,eugene scribe
 eugene_varlin,category,eugene varlin
 eva_skofic_maurer,category,eva skofic maurer
+evgen_lah,category,evgen lah
+evtanazija,category,evtanazija
+fany_hausmann,category,fany hausmann
 feliks_anton_dev,category,feliks anton dev
 ferdinand_i_habsbursko_lotarinski,category,ferdinand i habsbursko lotarinski
 ferdinand_seidl,category,ferdinand seidl
 ferdo_kleinmayr,category,ferdo kleinmayr
+ferdo_kocevar,category,ferdo kocevar
+ferdo_kozak,category,ferdo kozak
+ferdo_lupsa,category,ferdo lupsa
+feri_lainscek,category,feri lainscek
 filip_jakob_kafol,category,filip jakob kafol
+fizika,category,fizika
 fjodor_mihajlovic_dostojevski,category,fjodor mihajlovic dostojevski
-folklorna_povest,category,folklorna povest
+fran_albreht,category,fran albreht
+fran_celestin,category,fran celestin
+fran_detela,category,fran detela
 fran_erjavec,category,fran erjavec
+fran_gestrin,category,fran gestrin
 fran_govekar,category,fran govekar
 fran_ilesic,category,fran ilesic
+fran_jaklic,category,fran jaklic
+fran_josip_knaflic,category,fran josip knaflic
 fran_kocbek,category,fran kocbek
+fran_lakmayer,category,fran lakmayer
 fran_levec,category,fran levec
 fran_levstik,category,fran levstik
 fran_lipah,category,fran lipah
+fran_maselj_podlimbarski,category,fran maselj podlimbarski
 fran_milcinski,category,fran milcinski
 fran_orozen,category,fran orozen
+fran_ros,category,fran ros
 fran_saleski_finzgar,category,fran saleski finzgar
+fran_stefanic,category,fran stefanic
+fran_tratnik,category,fran tratnik
+fran_vidic,category,fran vidic
 fran_zakrajsek,category,fran zakrajsek
 fran_zbasnik,category,fran zbasnik
+franc_albreht,category,franc albreht
 franc_cimperman,category,franc cimperman
+franc_gortnar,category,franc gortnar
+franc_hubad,category,franc hubad
 franc_jozef_i_habsbursko_lotarinski,category,franc jozef i habsbursko lotarinski
 franc_juliani,category,franc juliani
+franc_kacin,category,franc kacin
 franc_ksaver_mesko,category,franc ksaver mesko
 franc_malavasic,category,franc malavasic
+franc_miklosic,category,franc miklosic
+franc_pintaric_svaba,category,franc pintaric svaba
 franc_pirc,category,franc pirc
+franc_simonic,category,franc simonic
+franc_temlin,category,franc temlin
+franc_valentin_slemenik,category,franc valentin slemenik
+franc_veriti,category,franc veriti
+france_balantic,category,france balantic
+france_bevk,category,france bevk
 france_cegnar,category,france cegnar
+france_ferzou,category,france ferzou
 france_filipic,category,france filipic
+france_kozar,category,france kozar
 france_preseren,category,france preseren
+france_rebec,category,france rebec
 francisek_ksaverij_sterzaj,category,francisek ksaverij sterzaj
 francisek_lampe,category,francisek lampe
+francisek_locniskar,category,francisek locniskar
 francisek_svetlicic,category,francisek svetlicic
+francka_gortnar,category,francka gortnar
 francka_zupancic,category,francka zupancic
 frane_milcinski_jezek,category,frane milcinski jezek
 franja_tavcar,category,franja tavcar
 franja_trojansek,category,franja trojansek
+franjo_krakovec,category,franjo krakovec
 franjo_neubauer,category,franjo neubauer
+frank_albrecht,category,frank albrecht
+frank_kroll,category,frank kroll
+frank_s_tauchar,category,frank s tauchar
+frantisek_jaromir_rubes,category,frantisek jaromir rubes
+frantisek_ladislav_celakovsky,category,frantisek ladislav celakovsky
+franz_ignaz_von_holbein,category,franz ignaz von holbein
 friderik_baraga,category,friderik baraga
+fridolin_kaucic,category,fridolin kaucic
+fridtjof_nansen,category,fridtjof nansen
+friedrich_engels,category,friedrich engels
+friedrich_schiller,category,friedrich schiller
+g_p_cesenate,category,g p cesenate
 g_s,category,g s
+gastein,category,gastein
+gerrit_theodoor_rotman,category,gerrit theodoor rotman
 giovanni_antonio_scopoli,category,giovanni antonio scopoli
 gitica_jakopin,category,gitica jakopin
 giuseppe_musolino,category,giuseppe musolino
+glas_naroda,publication,glas naroda
+glas_osemnajste,publication,glas osemnajste
 glasnik_slovenskega_slovstva,publication,glasnik slovenskega slovstva
+glose,category,glose
 golica,category,golica
+goran_vojnovic,category,goran vojnovic
 gore_v_sloveniji,category,gore v sloveniji
+gorenjec,category,gorenjec
 gorica,category,gorica
 gorica_casnik,category,gorica casnik
+goriska_brda,category,goriska brda
+goriska_matica,category,goriska matica
+gospod_izidor_fucec,category,gospod izidor fucec
+gospodicna_cizara,category,gospodicna cizara
+govori,category,govori
+grafomanije,category,grafomanije
 gregor_krek,category,gregor krek
-grmada,category,grmada
+gregor_zerjav,category,gregor zerjav
+grobni_napisi,category,grobni napisi
 gruda,category,gruda
 guillaume_apollinaire,category,guillaume apollinaire
 gustav_strnisa,category,gustav strnisa
+gustav_von_moser,category,gustav von moser
+gustav_zu_putlitz,category,gustav zu putlitz
 hajdamak,category,hajdamak
+harriet_beecher_stowe,category,harriet beecher stowe
+heinrich_sochaczewsky,category,heinrich sochaczewsky
+heinrich_zschokke,category,heinrich zschokke
 helena_kraljic,category,helena kraljic
+helena_turk,category,helena turk
+henriette_brey,category,henriette brey
+henrik_podkrajsek,category,henrik podkrajsek
 henrik_tuma,category,henrik tuma
 henry_rider_haggard,category,henry rider haggard
+hieronymus_carl_friedrich_von_munchhausen,category,hieronymus carl friedrich von munchhausen
 hilarij_zorn,category,hilarij zorn
 himne,category,himne
+hinko_dolenec,category,hinko dolenec
 hipokrat,category,hipokrat
 hlacke_za_oblacke,category,hlacke za oblacke
+i_t_t,category,i t t
 ida_mlakar,category,ida mlakar
+idila,category,idila
 idrija,category,idrija
+ignac_ij_kusljan,category,ignac ij kusljan
+ignac_kusljan,category,ignac kusljan
+ignacij_hladnik,category,ignacij hladnik
 ignacij_holzapfel,category,ignacij holzapfel
 ignacij_knoblehar,category,ignacij knoblehar
 igo_gruden,category,igo gruden
+igor_gruden,category,igor gruden
+igor_scep,category,igor scep
+ilka_vaste,category,ilka vaste
 illyrisches_blatt,category,illyrisches blatt
 ilustrirani_glasnik,publication,ilustrirani glasnik
+imre_augustic,category,imre augustic
 integrali_26,category,integrali 26
+irena_blazinsek,category,irena blazinsek
 ischl,category,ischl
 islam,category,islam
+istra,category,istra
+ivan_albreht,category,ivan albreht
 ivan_baloh,category,ivan baloh
 ivan_cankar,category,ivan cankar
 ivan_dolinar,category,ivan dolinar
 ivan_engelsberger,category,ivan engelsberger
 ivan_franke,category,ivan franke
 ivan_hribar,category,ivan hribar
+ivan_hribovsek,category,ivan hribovsek
+ivan_jontez,category,ivan jontez
+ivan_kavcic,category,ivan kavcic
 ivan_kostial,category,ivan kostial
+ivan_kreft,category,ivan kreft
 ivan_krulec,category,ivan krulec
 ivan_lah,category,ivan lah
 ivan_lampet,category,ivan lampet
+ivan_macher,category,ivan macher
+ivan_macun,category,ivan macun
+ivan_maticic,category,ivan maticic
+ivan_minatti,category,ivan minatti
 ivan_molek,category,ivan molek
 ivan_mulacek,category,ivan mulacek
 ivan_potrc,category,ivan potrc
@@ -469,6 +766,7 @@ ivan_rob,category,ivan rob
 ivan_robida,category,ivan robida
 ivan_saselj,category,ivan saselj
 ivan_sergejevic_turgenjev,category,ivan sergejevic turgenjev
+ivan_sivec,category,ivan sivec
 ivan_skuhala,category,ivan skuhala
 ivan_steklasa,category,ivan steklasa
 ivan_strojar,category,ivan strojar
@@ -476,35 +774,51 @@ ivan_strukelj,category,ivan strukelj
 ivan_tavcar,category,ivan tavcar
 ivan_tusek,category,ivan tusek
 ivan_vdovic,category,ivan vdovic
+ivan_vesel,category,ivan vesel
 ivan_vrhovec,category,ivan vrhovec
 ivan_vrhovnik,category,ivan vrhovnik
 ivan_vuk,category,ivan vuk
 ivan_zmavc,category,ivan zmavc
+ivan_zorec,category,ivan zorec
 ivanka_anzic_klemencic,category,ivanka anzic klemencic
 ivanka_mestnik,category,ivanka mestnik
 ivo_brncic,category,ivo brncic
 ivo_cesnik,category,ivo cesnik
+ivo_grahor,category,ivo grahor
 ivo_kovacic,category,ivo kovacic
+ivo_pregelj,category,ivo pregelj
 ivo_samec,category,ivo samec
+ivo_sorli,category,ivo sorli
 ivo_trost,category,ivo trost
+iz_arhiva,category,iz arhiva
 iz_ljubljane_cez_poljane,category,iz ljubljane cez poljane
 iz_sodnijskega_zivljenja,category,iz sodnijskega zivljenja
 izidor_cankar,category,izidor cankar
 izmail_ivanovic_sreznjevski,category,izmail ivanovic sreznjevski
 izvir,category,izvir
+j_a,category,j a
 j_furlani,category,j furlani
+j_m_krivcev,category,j m krivcev
 j_mandelj,category,j mandelj
+j_mohorov,category,j mohorov
 j_volkov,category,j volkov
+jadranka,category,jadranka
 jakob_alesovec,category,jakob alesovec
 jakob_aljaz,category,jakob aljaz
+jakob_bedenek,category,jakob bedenek
+jakob_hocevar,category,jakob hocevar
+jakob_sket,category,jakob sket
 jakob_zupan,category,jakob zupan
+james_debevec,category,james debevec
 james_harvey_robinson,category,james harvey robinson
 jan_vitovec,category,jan vitovec
 jana_bauer,category,jana bauer
 jana_kolaric,category,jana kolaric
 jana_strzinar,category,jana strzinar
+janez_adam_traven,category,janez adam traven
 janez_bilc,category,janez bilc
 janez_bleiweis,category,janez bleiweis
+janez_bosko,category,janez bosko
 janez_cigler,category,janez cigler
 janez_dolenc,category,janez dolenc
 janez_evangelist_krek,publication,janez evangelist krek
@@ -513,103 +827,168 @@ janez_jelen,category,janez jelen
 janez_kalan,category,janez kalan
 janez_kmet,category,janez kmet
 janez_krstnik_mesar,category,janez krstnik mesar
+janez_menart,category,janez menart
 janez_mencinger,category,janez mencinger
+janez_nepomuk_hradecky,category,janez nepomuk hradecky
 janez_parapat,category,janez parapat
 janez_trdina,category,janez trdina
+janez_vajkard_valvasor,category,janez vajkard valvasor
+janez_vipotnik,category,janez vipotnik
 janez_zagar,category,janez zagar
 janja_vidmar,category,janja vidmar
 janko_barle,category,janko barle
 janko_bratina,category,janko bratina
+janko_kac,category,janko kac
 janko_kersnik,category,janko kersnik
+janko_kersnik_1881,category,janko kersnik 1881
 janko_kessler,category,janko kessler
 janko_mlakar,category,janko mlakar
 janko_pajk,category,janko pajk
 janko_samec,category,janko samec
+janko_slebinger,category,janko slebinger
+janko_telban,category,janko telban
 janus_golec,category,janus golec
 jaroslav_kikelj,category,jaroslav kikelj
+jean_francois_bayard,category,jean francois bayard
 jernej_andrejka,category,jernej andrejka
 jernej_dolzan,category,jernej dolzan
+jernej_kopitar,category,jernej kopitar
 jernej_levicnik,category,jernej levicnik
 jernej_medved,category,jernej medved
 jernej_vidmar,category,jernej vidmar
+jiri_cermak,category,jiri cermak
+johan_august_strindberg,category,johan august strindberg
+johann_wolfgang_von_goethe,category,johann wolfgang von goethe
 johannes_frischauf,category,johannes frischauf
 johannes_jrgensen,category,johannes jrgensen
+joka_zigon,category,joka zigon
+jos_rusin,category,jos rusin
+josef_radetzky,category,josef radetzky
+josef_von_weilen,category,josef von weilen
+joseph_marius_von_babo,category,joseph marius von babo
 josip_benkovic,category,josip benkovic
+josip_brinar,category,josip brinar
+josip_broz_tito,category,josip broz tito
 josip_cimperman,category,josip cimperman
 josip_ciril_oblak,category,josip ciril oblak
+josip_godina,category,josip godina
 josip_gruden,category,josip gruden
 josip_hauptman,category,josip hauptman
 josip_juraj_strossmayer,category,josip juraj strossmayer
 josip_jurcic,category,josip jurcic
+josip_korban,category,josip korban
 josip_kostanjevec,category,josip kostanjevec
 josip_lavtizar,category,josip lavtizar
 josip_murn,category,josip murn
+josip_nolli,category,josip nolli
+josip_ogrinec,category,josip ogrinec
 josip_pagliaruzzi,category,josip pagliaruzzi
+josip_podmilsak,category,josip podmilsak
 josip_sernec,category,josip sernec
 josip_stritar,category,josip stritar
+josip_vandot,category,josip vandot
+josip_visarski,category,josip visarski
+josip_vosnjak,category,josip vosnjak
 josipina_urbancic_turnograjska,category,josipina urbancic turnograjska
 jovan_vesel_koseski,category,jovan vesel koseski
 joza_beks,category,joza beks
 joza_lovrencic,category,joza lovrencic
+joza_musil,category,joza musil
 joza_vovk,category,joza vovk
+joze_abram,category,joze abram
 joze_ambrozic,category,joze ambrozic
 joze_debevec,category,joze debevec
 joze_javorsek,category,joze javorsek
 joze_kosar,category,joze kosar
 joze_kranjc,category,joze kranjc
+joze_lavric,category,joze lavric
 joze_pahor,category,joze pahor
 joze_serjak,category,joze serjak
+joze_smit,category,joze smit
 joze_urbanija,category,joze urbanija
 joze_zavertnik,category,joze zavertnik
+joze_zupan,category,joze zupan
 jozef_bevk,category,jozef bevk
+jozef_blaznik,category,jozef blaznik
 jozef_ii_habsbursko_lotarinski,category,jozef ii habsbursko lotarinski
 jozef_levicnik,category,jozef levicnik
 jozef_marija_krzisnik,category,jozef marija krzisnik
 jozef_mihelic,category,jozef mihelic
 jozef_mursec,category,jozef mursec
 jozef_orel,category,jozef orel
+jozef_sisentschelli,category,jozef sisentschelli
 jozef_virk,category,jozef virk
 jozef_zemlja,category,jozef zemlja
 juda_iskarijot,category,juda iskarijot
 judita_rajnar,category,judita rajnar
 julia_doria,category,julia doria
 julij_bucar,category,julij bucar
+julij_kleinmayr,category,julij kleinmayr
+julius_kugy,category,julius kugy
 jurij_dalmatin,category,jurij dalmatin
 jurij_grabrijan,category,jurij grabrijan
+jurij_kosmac,category,jurij kosmac
+jurij_svajncer,category,jurij svajncer
+jurij_vega,category,jurij vega
 jurij_volc,category,jurij volc
 jus_kozak,category,jus kozak
+just_piscanec,category,just piscanec
 jutro_1920,category,jutro 1920
 kajetan_kovic,category,kajetan kovic
 kajscek,category,kajscek
+kamna_gorica,category,kamna gorica
 kapela_marije_snezne_kredarica,category,kapela marije snezne kredarica
 karel_chodounsky,category,karel chodounsky
+karel_chodounsky_ml,category,karel chodounsky ml
 karel_destovnik_kajuh,category,karel destovnik kajuh
 karel_grzan,category,karel grzan
+karel_robida,category,karel robida
+karel_strekelj,category,karel strekelj
+karel_vi_habsburski,category,karel vi habsburski
+karl_marx,category,karl marx
+karl_may,category,karl may
+karol_glaser,publication,karol glaser
 katekizem,category,katekizem
+katka_zupancic,category,katka zupancic
 kazala,category,kazala
 keber,category,keber
+kekec,category,kekec
+klara_filipic,category,klara filipic
+klaus_detlef_olof,category,klaus detlef olof
+klement_jug,category,klement jug
 kmetijske_in_rokodelske_novice,category,kmetijske in rokodelske novice
+knezova_knjiznica,category,knezova knjiznica
+knjige_leta_1982,category,knjige leta 1982
+knjizevnost_nob,category,knjizevnost nob
 knjizevnost_revija,category,knjizevnost revija
 knjizne_zbirke,category,knjizne zbirke
+knut_hamsun,category,knut hamsun
 koledar_mohorjeve_druzbe,category,koledar mohorjeve druzbe
 koledarji,category,koledarji
 komedija,category,komedija
 komedije,category,komedije
 komunizem,category,komunizem
+koncilski_odloki,category,koncilski odloki
+koroska,category,koroska
+kosta_trifkovic,category,kosta trifkovic
 kraguljcki_prunk_utva,category,kraguljcki prunk utva
 krajnska_cbelica,category,krajnska cbelica
 kralj_matjaz,category,kralj matjaz
 kratka_proza,category,kratka proza
 kratka_sodobna_pravljica,category,kratka sodobna pravljica
 kratka_zgodba,category,kratka zgodba
+kratke_slovenske_sodobne_pravljice,category,kratke slovenske sodobne pravljice
 kratke_sodobne_pravljice,category,kratke sodobne pravljice
 kres_1881,category,kres 1881
 kres_1921,category,kres 1921
 kristina_brenk,category,kristina brenk
 kristina_suler,category,kristina suler
+kronika,category,kronika
+kropa,category,kropa
 krscanske_molitve,category,krscanske molitve
 ladislav_kozelj,category,ladislav kozelj
 laibacher_mysterien,category,laibacher mysterien
+laibacher_zeitung,category,laibacher zeitung
 lambert_ehrlich,category,lambert ehrlich
 lambert_fercnik,category,lambert fercnik
 lambert_thiboust,category,lambert thiboust
@@ -617,13 +996,19 @@ lea_fatur,category,lea fatur
 leonardo_da_vinci,category,leonardo da vinci
 leonid_nikolajevic_andrejev,category,leonid nikolajevic andrejev
 leopold_gorenjec,category,leopold gorenjec
+leopold_legat,category,leopold legat
 leopold_lenard,category,leopold lenard
 leopold_tursic,category,leopold tursic
 leopold_volkmer,category,leopold volkmer
+lepa_vida,category,lepa vida
 letaki,category,letaki
 letopis_matice_slovenske,category,letopis matice slovenske
+letopis_slovenske_matice,category,letopis slovenske matice
 lev_nikolajevic_tolstoj,category,lev nikolajevic tolstoj
+levin,category,levin
 lili_novy,category,lili novy
+lipe_haderlap,category,lipe haderlap
+listi,publication,listi
 literarne_kritike,category,literarne kritike
 literarni_liki,category,literarni liki
 literarni_programi,category,literarni programi
@@ -631,27 +1016,49 @@ litijan,category,litijan
 ljuba_prenner,category,ljuba prenner
 ljubezen,category,ljubezen
 ljubljanski_zvon,category,ljubljanski zvon
+ljubljansko_barje,category,ljubljansko barje
 ljudevit_stiasny,category,ljudevit stiasny
 ljudmila_poljanec,category,ljudmila poljanec
 ljudmila_prunk,category,ljudmila prunk
+ljudske_igre,category,ljudske igre
+ljudske_pravljice,category,ljudske pravljice
+ljudsko_besedilo,category,ljudsko besedilo
 lojze_grozde,category,lojze grozde
 lojze_kovacic,category,lojze kovacic
+lojze_zupanc,category,lojze zupanc
 lokalna_slika_brez_slike_na_wikipodatkih,category,lokalna slika brez slike na wikipodatkih
 lokalna_slika_ustreza_sliki_v_wikipodatkih,category,lokalna slika ustreza sliki v wikipodatkih
 loski_razgledi,category,loski razgledi
+louis_adamic,category,louis adamic
+louis_zajec,category,louis zajec
+lovro_toman,category,lovro toman
 ludvik_xvi_francoski,category,ludvik xvi francoski
+ludwig_renn,category,ludwig renn
+ludwig_uhland,category,ludwig uhland
+luiza_pesjak,category,luiza pesjak
+luka_svetec,category,luka svetec
+lutkovna_igra,category,lutkovna igra
+m_elizabeta,category,m elizabeta
 m_j_gorenjka,category,m j gorenjka
 m_pirnat,category,m pirnat
+m_reinhart,category,m reinhart
 magda_lojk,category,magda lojk
+magda_salamon,category,magda salamon
+maks_pletersnik,category,maks pletersnik
+maksa_samsa,category,maksa samsa
 maksim_gorki,category,maksim gorki
 maksimilijan_i_habsburski,category,maksimilijan i habsburski
+makso_snuderl,category,makso snuderl
+mallnitz,category,mallnitz
 manica_koman,category,manica koman
+manifesti,category,manifesti
 manjka_leto_rojstva,category,manjka leto rojstva
 manjka_leto_smrti,category,manjka leto smrti
 mara_stepanova,category,mara stepanova
 mara_tavcar,category,mara tavcar
 marcela_bole,category,marcela bole
 maria_susanna_cummins,category,maria susanna cummins
+marica_gregoric_stepancic,category,marica gregoric stepancic
 marica_nadlisek_bartol,category,marica nadlisek bartol
 marica_strnad_cizerlj,category,marica strnad cizerlj
 marija_groselj,category,marija groselj
@@ -661,59 +1068,99 @@ marija_kmet,category,marija kmet
 marija_terezija,category,marija terezija
 marija_vera,category,marija vera
 marija_vogric,category,marija vogric
+marija_wessner,category,marija wessner
+marijana_zeljeznova_kokalj,category,marijana zeljeznova kokalj
 marinka_fritz_kunc,category,marinka fritz kunc
+mario_de_andrade,category,mario de andrade
 marja_borsnik,category,marja borsnik
+marjan_cufer,category,marjan cufer
 marjan_tomsic,category,marjan tomsic
 marjana_grasselli_prosenc,category,marjana grasselli prosenc
 marjeta_dajcman,category,marjeta dajcman
 mark_twain,category,mark twain
 marko_kravos,category,marko kravos
 marko_pohlin,category,marko pohlin
+marko_simcic,category,marko simcic
+martin_luter,category,martin luter
+martin_polse,category,martin polse
+mary_janesh,category,mary janesh
 matej_bor,category,matej bor
+matej_krajnc,category,matej krajnc
+matej_slekovec,category,matej slekovec
+matej_tonejec,category,matej tonejec
 mateja_crv_suznik,category,mateja crv suznik
 mateja_perpar,category,mateja perpar
 mateja_reba,category,mateja reba
 matevz_ravnikar_pozencan,category,matevz ravnikar pozencan
 matija_majar,category,matija majar
+matija_malesic,category,matija malesic
 matija_murko,category,matija murko
 matija_prelesnik,category,matija prelesnik
 matija_rode,category,matija rode
+matija_snajder,category,matija snajder
 matija_valjavec,category,matija valjavec
 matija_vertovec,category,matija vertovec
+matjaz_pikalo,category,matjaz pikalo
 med_gorami,category,med gorami
+mentor,category,mentor
+metod_dolenc,category,metod dolenc
 metod_pirih,category,metod pirih
 metrika,category,metrika
 miguel_de_cervantes,category,miguel de cervantes
+miha_avanzo,category,miha avanzo
 miha_kastelic,category,miha kastelic
 mihael_lendovsek,category,mihael lendovsek
+mihael_levstik,category,mihael levstik
 mihael_napotnik,category,mihael napotnik
+mihael_tusek,category,mihael tusek
+mihail_andrejevic_osorgin,category,mihail andrejevic osorgin
 mihail_jurjevic_lermontov,category,mihail jurjevic lermontov
 milan_dekleva,category,milan dekleva
+milan_jesih,category,milan jesih
+milan_lipovec,category,milan lipovec
+milan_medvesek,category,milan medvesek
 milan_pugelj,category,milan pugelj
 milan_resnik,category,milan resnik
 mile_klopcic,category,mile klopcic
 milena_batic,category,milena batic
+milica_ostrovska,category,milica ostrovska
 milica_sturm,category,milica sturm
 milijana_gligic_mikica,category,milijana gligic mikica
 miljutin_zarnik,category,miljutin zarnik
+milos_stibler,category,milos stibler
 mimi_malensek,category,mimi malensek
 mira_dobravec,category,mira dobravec
+mira_golobiceva,category,mira golobiceva
 mira_voglar,category,mira voglar
 miran_hladnik,category,miran hladnik
 miran_jarc,category,miran jarc
+mirko_brodnik,category,mirko brodnik
+mirko_kuncic,category,mirko kuncic
 miroslav_krleza,category,miroslav krleza
 miroslav_malovrh,category,miroslav malovrh
+miroslav_vilhar,category,miroslav vilhar
 mirza_safi_vazeh,category,mirza safi vazeh
+misko_kranjec,category,misko kranjec
 mladika,category,mladika
 mladina_revija,category,mladina revija
+mladinska_dela_dragotin_kette,category,mladinska dela dragotin kette
+mladinska_knjiga,category,mladinska knjiga
 mladinska_proza,category,mladinska proza
+mladinska_revija,category,mladinska revija
+mladinske_pripovedi,category,mladinske pripovedi
+mlado_jutro,category,mlado jutro
 modra_ptica,category,modra ptica
 mohorjeva_druzba,category,mohorjeva druzba
 mojiceja_podgorsek,category,mojiceja podgorsek
+molitveniki,category,molitveniki
 mozbeseda_pedenjped,category,mozbeseda pedenjped
+muceniki,category,muceniki
+nace_mihevc,category,nace mihevc
+namecek_nemskih_in_ponemcenih_poezij,genre,namecek nemskih in ponemcenih poezij
 narcisse_fournier,category,narcisse fournier
 narecja,category,narecja
 narodna_nosa,category,narodna nosa
+narodni_dnevnik,publication,narodni dnevnik
 narodni_obicaji,category,narodni obicaji
 narte_velikonja,category,narte velikonja
 nas_rod,category,nas rod
@@ -721,78 +1168,140 @@ nasa_moc,category,nasa moc
 nasi_zapiski,category,nasi zapiski
 natalija_brumen,category,natalija brumen
 natasa_konc_lorenzutti,category,natasa konc lorenzutti
+naturalizem,category,naturalizem
+neda_gerzinic,category,neda gerzinic
+nejc_gazvoda,category,nejc gazvoda
 nekrologi,category,nekrologi
 nemske_pesmi_france_preseren,genre,nemske pesmi france preseren
+nemski_avtorji,category,nemski avtorji
+nemski_duhovniki,category,nemski duhovniki
 nepopolni_clanki,category,nepopolni clanki
 nepotrjena_nepregledana_problematicna_besedila,category,nepotrjena nepregledana problematicna besedila
 nesreca,category,nesreca
 neza_maurer,category,neza maurer
+nezbrane_balade_in_romance,genre,nezbrane balade in romance
+nezbrane_lirske_pesmi,genre,nezbrane lirske pesmi
+nezbrane_nemske_pesmi,genre,nezbrane nemske pesmi
+nezka_raztresen,category,nezka raztresen
 niccolo_olivieri,category,niccolo olivieri
 niko_grafenauer,category,niko grafenauer
+niko_stritof,category,niko stritof
+nikolaj_vasiljevic_gogolj,category,nikolaj vasiljevic gogolj
 nimas_pojma,category,nimas pojma
+nizozemski_avtorji,category,nizozemski avtorji
+nob,category,nob
+norveski_avtorji,category,norveski avtorji
 nouvi_zakon,category,nouvi zakon
 nova_doba,category,nova doba
-novele,category,novele
+novele,genre,novele
+novi_svet,category,novi svet
+novice,category,novice
 obdelano_1,category,obdelano 1
 obdelano_2,category,obdelano 2
 obdelano_3,category,obdelano 3
 obdelano_4,category,obdelano 4
 obisk_casopis,publication,obisk casopis
+objavljene_nezbrane_pesmi_cankar,genre,objavljene nezbrane pesmi cankar
 objavljeno_s_pisnim_dovoljenjem,category,objavljeno s pisnim dovoljenjem
 objavljeno_z_ustnim_dovoljenjem,category,objavljeno z ustnim dovoljenjem
 obrezija,category,obrezija
 obvestila,category,obvestila
+ocene,category,ocene
+odlomki,category,odlomki
+odon_peterka,category,odon peterka
 ojstrica,category,ojstrica
 olga_gutman,category,olga gutman
 organizacija_zdruzenih_narodov,category,organizacija zdruzenih narodov
 oroslav_caf,category,oroslav caf
+osebnoizpovedna_poezija_taboriscna_poezija,genre,osebnoizpovedna poezija taboriscna poezija
+oskar_kamensek,category,oskar kamensek
+oton_marc,category,oton marc
 oton_trabant,category,oton trabant
+oton_vrhunec,category,oton vrhunec
+oton_zupancic,category,oton zupancic
+ozbalt_ilaunig,category,ozbalt ilaunig
+p_p,category,p p
 pamfleti,category,pamfleti
+pankracij_gregorc,category,pankracij gregorc
+papeske_bule,category,papeske bule
 papeske_okroznice,category,papeske okroznice
 papez_bonifacij_viii,category,papez bonifacij viii
+papez_celestin_v,category,papez celestin v
 papez_evgen_iv,category,papez evgen iv
+papez_inocenc_viii,category,papez inocenc viii
 papez_janez_pavel_ii,category,papez janez pavel ii
 papez_leon_xiii,category,papez leon xiii
+papez_lucij_iii,category,papez lucij iii
+papez_nikolaj_v,category,papez nikolaj v
 papez_pavel_iii,category,papez pavel iii
 papez_pij_ix,category,papez pij ix
+papez_pij_x,category,papez pij x
 papez_pij_xi,category,papez pij xi
 papezi,category,papezi
+parodije,category,parodije
+pavel_breznik,category,pavel breznik
+pavel_golia,category,pavel golia
+pavel_knobl,category,pavel knobl
 pavel_perko,category,pavel perko
+pavel_strmsek,category,pavel strmsek
 pavle_zidar,category,pavle zidar
 pavlina_pajk,category,pavlina pajk
+pedagogika,category,pedagogika
+penati,category,penati
 pesmi_gregorcic,genre,pesmi gregorcic
 pesmi_in_romance,genre,pesmi in romance
 pesmi_kosovel,genre,pesmi kosovel
+pesmi_medved,genre,pesmi medved
+pesmi_nasih_borcev,genre,pesmi nasih borcev
 pesmi_salamun,genre,pesmi salamun
 pesmi_salamun9,genre,pesmi salamun9
+pesmi_tomaz_salamun,genre,pesmi tomaz salamun
+pesmi_zois,genre,pesmi zois
 pesni_cimperman,category,pesni cimperman
 petar_preradovic,category,petar preradovic
 peter_bohinjec,category,peter bohinjec
+peter_bozic,category,peter bozic
 peter_dajnko,category,peter dajnko
 peter_hitzinger,category,peter hitzinger
+peter_kolar,category,peter kolar
+peter_paul_rubens,category,peter paul rubens
+peter_pavel_glavar,category,peter pavel glavar
 peter_radics,category,peter radics
 peter_svetina,category,peter svetina
 peter_zdovc,category,peter zdovc
+peter_zele,category,peter zele
+pfandel,category,pfandel
 pisma,category,pisma
 pisma_franceta_preserna,category,pisma franceta preserna
 pisma_josipa_murna,category,pisma josipa murna
-planinska_povest,category,planinska povest
+pisma_otona_trabanta,category,pisma otona trabanta
+pius_alexander_wolff,category,pius alexander wolff
+plamen,category,plamen
+planinska_povest,genre,planinska povest
 planinski_dom,category,planinski dom
 planinski_ples,category,planinski ples
 planjavski,category,planjavski
+plitvicka_jezera,category,plitvicka jezera
 podkovani_zajec_in_modra_oslica,category,podkovani zajec in modra oslica
 podlistki,publication,podlistki
 poetika,category,poetika
+poezija_robert_simonic,genre,poezija robert simonic
 poezije_france_preseren,genre,poezije france preseren
+poezije_zupan,genre,poezije zupan
 pohod_na_triglav,category,pohod na triglav
 pohodnistvo,category,pohodnistvo
 pojoca_kri_gradnik,category,pojoca kri gradnik
 poljski_avtorji,category,poljski avtorji
 poljski_duhovniki,category,poljski duhovniki
 polona_skrinjar,category,polona skrinjar
+pomladni_glasi,publication,pomladni glasi
+posl_kraljevacki,category,posl kraljevacki
+post_modernizem,category,post modernizem
 poziv_glede_uredbe_potresnega_opazovanja_na_kranjskem,category,poziv glede uredbe potresnega opazovanja na kranjskem
+pravljice,category,pravljice
 pravo,category,pravo
 pravopis,category,pravopis
+predgovori,category,predgovori
 predpustna_veselica,category,predpustna veselica
 pregledane_redakcije,category,pregledane redakcije
 prejemniki_glazerjeve_nagrade,category,prejemniki glazerjeve nagrade
@@ -802,6 +1311,7 @@ prejemniki_jezkove_nagrade,category,prejemniki jezkove nagrade
 prejemniki_kresnika,category,prejemniki kresnika
 prejemniki_levstikove_nagrade,category,prejemniki levstikove nagrade
 prejemniki_nagrade_presernovega_sklada,category,prejemniki nagrade presernovega sklada
+prejemniki_nobelove_nagrade_za_knjizevnost,category,prejemniki nobelove nagrade za knjizevnost
 prejemniki_presernove_nagrade,category,prejemniki presernove nagrade
 prejemniki_rozanceve_nagrade,category,prejemniki rozanceve nagrade
 prejemniki_sovretove_nagrade,category,prejemniki sovretove nagrade
@@ -809,22 +1319,41 @@ prejemniki_vecernice,category,prejemniki vecernice
 prejemniki_veronikine_nagrade,category,prejemniki veronikine nagrade
 prejemniki_zupanciceve_nagrade,category,prejemniki zupanciceve nagrade
 prekmurje,category,prekmurje
+prepesnitve,category,prepesnitve
 presernove_poezije,genre,presernove poezije
+prezihov_voranc,category,prezihov voranc
+pridige,category,pridige
 priimki,category,priimki
 primorske_pesmi,genre,primorske pesmi
 primorski_list,publication,primorski list
+primoz_kozak,category,primoz kozak
 primoz_lavrencic,category,primoz lavrencic
 primoz_trubar,category,primoz trubar
 pripovedna_proza,category,pripovedna proza
+priredbe,category,priredbe
 prirocniki,category,prirocniki
 proletarec,category,proletarec
 propagandne_brosure,category,propagandne brosure
+prosveta_zda,category,prosveta zda
 proza,category,proza
+proza_z_otroke,category,proza z otroke
+proza_za_mladino,category,proza za mladino
+proza_za_odrasle,category,proza za odrasle
+proza_za_otroke,category,proza za otroke
+prva_svetovna_vojna,category,prva svetovna vojna
+psevdonimi,category,psevdonimi
+ptuj,category,ptuj
+publicistika,category,publicistika
 pustne_prireditve,category,pustne prireditve
+rabindranath_tagore,category,rabindranath tagore
 radece,category,radece
 radivoj_peterlin,category,radivoj peterlin
+radivoj_peterlin_petruska,category,radivoj peterlin petruska
 rado_murnik,category,rado murnik
+radoslav_razlag,category,radoslav razlag
+radovljica,category,radovljica
 rainer_maria_rilke,category,rainer maria rilke
+rajko_perusek,category,rajko perusek
 ratece,category,ratece
 razlicni_napisi,category,razlicni napisi
 razlocitve,category,razlocitve
@@ -832,13 +1361,19 @@ recenzije,category,recenzije
 referati,category,referati
 renata_anzic_trtnik,category,renata anzic trtnik
 republika_slovenija,category,republika slovenija
+revije,category,revije
+rimski_katolik,category,rimski katolik
+robert_frost,category,robert frost
 robert_simonic,category,robert simonic
 rojeni_10_aprila,category,rojeni 10 aprila
+rojeni_10_avgusta,category,rojeni 10 avgusta
 rojeni_10_decembra,category,rojeni 10 decembra
 rojeni_10_februarja,category,rojeni 10 februarja
 rojeni_10_junija,category,rojeni 10 junija
 rojeni_10_maja,category,rojeni 10 maja
 rojeni_10_marca,category,rojeni 10 marca
+rojeni_10_novembra,category,rojeni 10 novembra
+rojeni_10_oktobra,category,rojeni 10 oktobra
 rojeni_11_aprila,category,rojeni 11 aprila
 rojeni_11_avgusta,category,rojeni 11 avgusta
 rojeni_11_julija,category,rojeni 11 julija
@@ -933,6 +1468,7 @@ rojeni_21_oktobra,category,rojeni 21 oktobra
 rojeni_22_aprila,category,rojeni 22 aprila
 rojeni_22_decembra,category,rojeni 22 decembra
 rojeni_22_februarja,category,rojeni 22 februarja
+rojeni_22_januarja,category,rojeni 22 januarja
 rojeni_22_julija,category,rojeni 22 julija
 rojeni_22_junija,category,rojeni 22 junija
 rojeni_22_marca,category,rojeni 22 marca
@@ -943,6 +1479,7 @@ rojeni_23_decembra,category,rojeni 23 decembra
 rojeni_23_februarja,category,rojeni 23 februarja
 rojeni_23_julija,category,rojeni 23 julija
 rojeni_23_marca,category,rojeni 23 marca
+rojeni_23_septembra,category,rojeni 23 septembra
 rojeni_24_avgusta,category,rojeni 24 avgusta
 rojeni_24_decembra,category,rojeni 24 decembra
 rojeni_24_februarja,category,rojeni 24 februarja
@@ -960,6 +1497,7 @@ rojeni_25_maja,category,rojeni 25 maja
 rojeni_25_novembra,category,rojeni 25 novembra
 rojeni_25_oktobra,category,rojeni 25 oktobra
 rojeni_25_septembra,category,rojeni 25 septembra
+rojeni_26_aprila,category,rojeni 26 aprila
 rojeni_26_avgusta,category,rojeni 26 avgusta
 rojeni_26_januarja,category,rojeni 26 januarja
 rojeni_26_junija,category,rojeni 26 junija
@@ -973,17 +1511,20 @@ rojeni_27_marca,category,rojeni 27 marca
 rojeni_27_novembra,category,rojeni 27 novembra
 rojeni_27_oktobra,category,rojeni 27 oktobra
 rojeni_28_avgusta,category,rojeni 28 avgusta
+rojeni_28_decembra,category,rojeni 28 decembra
 rojeni_28_januarja,category,rojeni 28 januarja
 rojeni_28_maja,category,rojeni 28 maja
 rojeni_28_marca,category,rojeni 28 marca
 rojeni_28_novembra,category,rojeni 28 novembra
 rojeni_28_oktobra,category,rojeni 28 oktobra
+rojeni_28_septembra,category,rojeni 28 septembra
 rojeni_29_aprila,category,rojeni 29 aprila
 rojeni_29_decembra,category,rojeni 29 decembra
 rojeni_29_februarja,category,rojeni 29 februarja
 rojeni_29_januarja,category,rojeni 29 januarja
 rojeni_29_junija,category,rojeni 29 junija
 rojeni_29_marca,category,rojeni 29 marca
+rojeni_29_novembra,category,rojeni 29 novembra
 rojeni_29_oktobra,category,rojeni 29 oktobra
 rojeni_29_septembra,category,rojeni 29 septembra
 rojeni_2_aprila,category,rojeni 2 aprila
@@ -1004,8 +1545,10 @@ rojeni_3_aprila,category,rojeni 3 aprila
 rojeni_3_avgusta,category,rojeni 3 avgusta
 rojeni_3_decembra,category,rojeni 3 decembra
 rojeni_3_februarja,category,rojeni 3 februarja
+rojeni_3_januarja,category,rojeni 3 januarja
 rojeni_3_julija,category,rojeni 3 julija
 rojeni_3_junija,category,rojeni 3 junija
+rojeni_3_maja,category,rojeni 3 maja
 rojeni_3_marca,category,rojeni 3 marca
 rojeni_3_novembra,category,rojeni 3 novembra
 rojeni_3_oktobra,category,rojeni 3 oktobra
@@ -1024,6 +1567,7 @@ rojeni_4_septembra,category,rojeni 4 septembra
 rojeni_5_aprila,category,rojeni 5 aprila
 rojeni_5_avgusta,category,rojeni 5 avgusta
 rojeni_5_januarja,category,rojeni 5 januarja
+rojeni_5_maja,category,rojeni 5 maja
 rojeni_5_novembra,category,rojeni 5 novembra
 rojeni_5_oktobra,category,rojeni 5 oktobra
 rojeni_5_septembra,category,rojeni 5 septembra
@@ -1040,10 +1584,13 @@ rojeni_7_decembra,category,rojeni 7 decembra
 rojeni_7_februarja,category,rojeni 7 februarja
 rojeni_7_januarja,category,rojeni 7 januarja
 rojeni_7_julija,category,rojeni 7 julija
+rojeni_7_maja,category,rojeni 7 maja
+rojeni_7_oktobra,category,rojeni 7 oktobra
 rojeni_7_septembra,category,rojeni 7 septembra
 rojeni_8_junija,category,rojeni 8 junija
 rojeni_8_marca,category,rojeni 8 marca
 rojeni_8_novembra,category,rojeni 8 novembra
+rojeni_8_septembra,category,rojeni 8 septembra
 rojeni_9_aprila,category,rojeni 9 aprila
 rojeni_9_decembra,category,rojeni 9 decembra
 rojeni_9_februarja,category,rojeni 9 februarja
@@ -1054,6 +1601,8 @@ rojeni_9_novembra,category,rojeni 9 novembra
 rojeni_9_septembra,category,rojeni 9 septembra
 rojeni_leta_1180,category,rojeni leta 1180
 rojeni_leta_1235,category,rojeni leta 1235
+rojeni_leta_1379,category,rojeni leta 1379
+rojeni_leta_1380,category,rojeni leta 1380
 rojeni_leta_1383,category,rojeni leta 1383
 rojeni_leta_1452,category,rojeni leta 1452
 rojeni_leta_1459,category,rojeni leta 1459
@@ -1066,14 +1615,20 @@ rojeni_leta_1673,category,rojeni leta 1673
 rojeni_leta_1676,category,rojeni leta 1676
 rojeni_leta_1703,category,rojeni leta 1703
 rojeni_leta_1717,category,rojeni leta 1717
+rojeni_leta_1720,category,rojeni leta 1720
 rojeni_leta_1723,category,rojeni leta 1723
 rojeni_leta_1732,category,rojeni leta 1732
 rojeni_leta_1735,category,rojeni leta 1735
 rojeni_leta_1741,category,rojeni leta 1741
+rojeni_leta_1749,category,rojeni leta 1749
 rojeni_leta_1754,category,rojeni leta 1754
 rojeni_leta_1756,category,rojeni leta 1756
 rojeni_leta_1758,category,rojeni leta 1758
+rojeni_leta_1759,category,rojeni leta 1759
+rojeni_leta_1761,category,rojeni leta 1761
 rojeni_leta_1767,category,rojeni leta 1767
+rojeni_leta_1768,category,rojeni leta 1768
+rojeni_leta_1771,category,rojeni leta 1771
 rojeni_leta_1774,category,rojeni leta 1774
 rojeni_leta_1780,category,rojeni leta 1780
 rojeni_leta_1784,category,rojeni leta 1784
@@ -1105,6 +1660,7 @@ rojeni_leta_1816,category,rojeni leta 1816
 rojeni_leta_1817,category,rojeni leta 1817
 rojeni_leta_1818,category,rojeni leta 1818
 rojeni_leta_1819,category,rojeni leta 1819
+rojeni_leta_1820,category,rojeni leta 1820
 rojeni_leta_1821,category,rojeni leta 1821
 rojeni_leta_1825,category,rojeni leta 1825
 rojeni_leta_1826,category,rojeni leta 1826
@@ -1118,11 +1674,14 @@ rojeni_leta_1837,category,rojeni leta 1837
 rojeni_leta_1838,category,rojeni leta 1838
 rojeni_leta_1839,category,rojeni leta 1839
 rojeni_leta_1840,category,rojeni leta 1840
+rojeni_leta_1841,category,rojeni leta 1841
+rojeni_leta_1842,category,rojeni leta 1842
 rojeni_leta_1843,category,rojeni leta 1843
 rojeni_leta_1844,category,rojeni leta 1844
 rojeni_leta_1845,category,rojeni leta 1845
 rojeni_leta_1846,category,rojeni leta 1846
 rojeni_leta_1847,category,rojeni leta 1847
+rojeni_leta_1849,category,rojeni leta 1849
 rojeni_leta_1850,category,rojeni leta 1850
 rojeni_leta_1851,category,rojeni leta 1851
 rojeni_leta_1852,category,rojeni leta 1852
@@ -1162,11 +1721,13 @@ rojeni_leta_1885,category,rojeni leta 1885
 rojeni_leta_1886,category,rojeni leta 1886
 rojeni_leta_1887,category,rojeni leta 1887
 rojeni_leta_1888,category,rojeni leta 1888
+rojeni_leta_1889,category,rojeni leta 1889
 rojeni_leta_1891,category,rojeni leta 1891
 rojeni_leta_1892,category,rojeni leta 1892
 rojeni_leta_1893,category,rojeni leta 1893
 rojeni_leta_1895,category,rojeni leta 1895
 rojeni_leta_1897,category,rojeni leta 1897
+rojeni_leta_1899,category,rojeni leta 1899
 rojeni_leta_1900,category,rojeni leta 1900
 rojeni_leta_1903,category,rojeni leta 1903
 rojeni_leta_1904,category,rojeni leta 1904
@@ -1205,6 +1766,7 @@ rojeni_leta_1947,category,rojeni leta 1947
 rojeni_leta_1948,category,rojeni leta 1948
 rojeni_leta_1949,category,rojeni leta 1949
 rojeni_leta_1950,category,rojeni leta 1950
+rojeni_leta_1951,category,rojeni leta 1951
 rojeni_leta_1953,category,rojeni leta 1953
 rojeni_leta_1954,category,rojeni leta 1954
 rojeni_leta_1955,category,rojeni leta 1955
@@ -1226,18 +1788,26 @@ rojeni_leta_1971,category,rojeni leta 1971
 rojeni_leta_1974,category,rojeni leta 1974
 rojeni_leta_1975,category,rojeni leta 1975
 rojeni_leta_1976,category,rojeni leta 1976
+rojeni_leta_1979,category,rojeni leta 1979
 rojeni_leta_1980,category,rojeni leta 1980
 rojeni_leta_1981,category,rojeni leta 1981
 rojeni_leta_1991,category,rojeni leta 1991
+rojeni_leta_6_pr_n_st,category,rojeni leta 6 pr n st
 rojeni_v_20_stoletju_n_st,category,rojeni v 20 stoletju n st
 rokopis,category,rokopis
 rokopisi,category,rokopisi
-roman_tominec,category,roman tominec
+rokovnjaci,category,rokovnjaci
+roman_tominec,genre,roman tominec
 romuald_marusic,category,romuald marusic
 rozmanov_france,category,rozmanov france
 rudolf_arko,category,rudolf arko
 rudolf_ii_habsburski,category,rudolf ii habsburski
+rudolf_maister,category,rudolf maister
 rudolf_marn,category,rudolf marn
+s_semenovic,category,s semenovic
+saj_sem_ti_pravila,category,saj sem ti pravila
+sale,category,sale
+salzburg,category,salzburg
 sanja_pregl,category,sanja pregl
 sasa_vegri,category,sasa vegri
 sasa_vrandecic,category,sasa vrandecic
@@ -1245,20 +1815,35 @@ savinja,category,savinja
 savinjka,category,savinjka
 schwentnerjevi_nagrajenci,category,schwentnerjevi nagrajenci
 sebastian_rieger,category,sebastian rieger
+sebastijan_krelj,category,sebastijan krelj
+sen_poletne_noci,category,sen poletne noci
+sergej_aleksandrovic_jesenin,category,sergej aleksandrovic jesenin
+severin_sali,category,severin sali
 seznam_slovenskih_mladinskih_pisateljev_in_knjizevnih_besedil,category,seznam slovenskih mladinskih pisateljev in knjizevnih besedil
 seznami,category,seznami
+show_strahov,category,show strahov
+silvester_k,category,silvester k
 silvester_skerl,category,silvester skerl
 simon_gregorcic,category,simon gregorcic
+simon_jenko,category,simon jenko
 simon_rutar,category,simon rutar
+simun_kozicic_benja,category,simun kozicic benja
 skrbi_gospe_bobkove,category,skrbi gospe bobkove
 skrbine,category,skrbine
 skrlatica,category,skrlatica
+slavistika,category,slavistika
+slavko_grum,category,slavko grum
 slavko_jug,category,slavko jug
+slavko_osterc,category,slavko osterc
+slavko_pregl,category,slavko pregl
 slikanice,category,slikanice
+slike_iz_rudarskega_zivljenja,category,slike iz rudarskega zivljenja
 slomsekove_basni_prilike_in_povesti,genre,slomsekove basni prilike in povesti
+slomskovo_berilo,category,slomskovo berilo
 slovan_1884,category,slovan 1884
 slovan_1902,category,slovan 1902
 slovanski_svet,category,slovanski svet
+slovencev_koledar,category,slovencev koledar
 slovenec,category,slovenec
 slovenec_1873,category,slovenec 1873
 slovenka_1897,category,slovenka 1897
@@ -1267,6 +1852,7 @@ slovenka_1922,category,slovenka 1922
 slovenska_bcela,category,slovenska bcela
 slovenska_cbela,category,slovenska cbela
 slovenska_leposlovna_besedila,category,slovenska leposlovna besedila
+slovenska_matica,category,slovenska matica
 slovenska_mladinska_knjizevnost,category,slovenska mladinska knjizevnost
 slovenska_talija,category,slovenska talija
 slovenska_zena,category,slovenska zena
@@ -1276,16 +1862,30 @@ slovenske_ljudske_pripovedi,category,slovenske ljudske pripovedi
 slovenske_pravljice,category,slovenske pravljice
 slovenske_vecernice,category,slovenske vecernice
 slovenske_vecrnice,category,slovenske vecrnice
+slovenski_dom_19091914,category,slovenski dom 19091914
+slovenski_glasnik,publication,slovenski glasnik
 slovenski_gospodar,category,slovenski gospodar
+slovenski_ilustrovani_tednik,publication,slovenski ilustrovani tednik
 slovenski_izseljenci,category,slovenski izseljenci
 slovenski_narod,category,slovenski narod
 slovenski_pesniki,category,slovenski pesniki
+slovenski_pravnik,category,slovenski pravnik
+slovenski_romani,genre,slovenski romani
+slovensko_gledalisce,category,slovensko gledalisce
+slovnica,category,slovnica
+slovnice,category,slovnice
 soca,category,soca
+socialna_tematika,category,socialna tematika
+sodobnost,category,sodobnost
 soneti,category,soneti
+sonetni_venci,category,sonetni venci
 sonja_koranter,category,sonja koranter
 sonja_sever,category,sonja sever
 spanski_avtorji,category,spanski avtorji
+srbski_avtorji,category,srbski avtorji
 srecko_kosovel,category,srecko kosovel
+srecko_puncer,category,srecko puncer
+stajerc,category,stajerc
 stanko_vraz,category,stanko vraz
 stefan_modrinjak,category,stefan modrinjak
 stefan_tonkli,category,stefan tonkli
@@ -1299,26 +1899,47 @@ strani_s_prekinjenimi_povezavami_do_datotek,category,strani s prekinjenimi povez
 strani_z_napakami_sklicev,category,strani z napakami sklicev
 strani_z_velikostmi_slik_ki_vsebujejo_dodatne_px,category,strani z velikostmi slik ki vsebujejo dodatne px
 strekljevi_nagrajenci,category,strekljevi nagrajenci
+svedski_avtorji,category,svedski avtorji
+sveti_andrej,category,sveti andrej
 sveti_ciril_in_metod,category,sveti ciril in metod
+sveti_tomaz,category,sveti tomaz
 svetlana_makarovic,category,svetlana makarovic
 svetniki,category,svetniki
 sveto_pismo,category,sveto pismo
 sveto_pismo_anton_alojzij_wolf,category,sveto pismo anton alojzij wolf
 sveto_pismo_jurij_japelj,category,sveto pismo jurij japelj
 svoboda_casopis,publication,svoboda casopis
+taborisce_ravensbruck,category,taborisce ravensbruck
 tanja_frumen,category,tanja frumen
+tanja_nezmah_dolinsek,category,tanja nezmah dolinsek
 tatjana_kokalj,category,tatjana kokalj
 tatjana_pregl_kobe,category,tatjana pregl kobe
 telovadba,category,telovadba
+theodor_korner,category,theodor korner
+tomaz_iskra,category,tomaz iskra
+tomaz_kempcan,category,tomaz kempcan
+tomaz_lapajne_dekleva,category,tomaz lapajne dekleva
 tomaz_salamun,category,tomaz salamun
+tone_cokan,category,tone cokan
 tone_cufar,category,tone cufar
 tone_gaspari,category,tone gaspari
+tone_glavan,category,tone glavan
+tone_partljic,category,tone partljic
 tone_pavcek,category,tone pavcek
+tone_pretnar,category,tone pretnar
+tone_seliskar,category,tone seliskar
+tone_svetina,category,tone svetina
+travestije,category,travestije
+trenta,category,trenta
 triglav,category,triglav
+trioleti,category,trioleti
 trnovski,category,trnovski
+trst,category,trst
+ture,category,ture
 turske_povesti,genre,turske povesti
 ucbeniki,category,ucbeniki
 uganke,category,uganke
+uganke_za_otroke,category,uganke za otroke
 umrli_10_aprila,category,umrli 10 aprila
 umrli_10_avgusta,category,umrli 10 avgusta
 umrli_10_decembra,category,umrli 10 decembra
@@ -1348,6 +1969,8 @@ umrli_13_aprila,category,umrli 13 aprila
 umrli_13_decembra,category,umrli 13 decembra
 umrli_13_februarja,category,umrli 13 februarja
 umrli_13_julija,category,umrli 13 julija
+umrli_13_maja,category,umrli 13 maja
+umrli_13_novembra,category,umrli 13 novembra
 umrli_14_aprila,category,umrli 14 aprila
 umrli_14_decembra,category,umrli 14 decembra
 umrli_14_februarja,category,umrli 14 februarja
@@ -1355,6 +1978,7 @@ umrli_14_julija,category,umrli 14 julija
 umrli_14_maja,category,umrli 14 maja
 umrli_14_marca,category,umrli 14 marca
 umrli_14_novembra,category,umrli 14 novembra
+umrli_15_avgusta,category,umrli 15 avgusta
 umrli_15_januarja,category,umrli 15 januarja
 umrli_15_julija,category,umrli 15 julija
 umrli_15_junija,category,umrli 15 junija
@@ -1365,10 +1989,13 @@ umrli_16_aprila,category,umrli 16 aprila
 umrli_16_decembra,category,umrli 16 decembra
 umrli_16_februarja,category,umrli 16 februarja
 umrli_16_januarja,category,umrli 16 januarja
+umrli_16_marca,category,umrli 16 marca
+umrli_16_novembra,category,umrli 16 novembra
 umrli_17_februarja,category,umrli 17 februarja
 umrli_17_maja,category,umrli 17 maja
 umrli_17_marca,category,umrli 17 marca
 umrli_17_novembra,category,umrli 17 novembra
+umrli_17_oktobra,category,umrli 17 oktobra
 umrli_18_aprila,category,umrli 18 aprila
 umrli_18_avgusta,category,umrli 18 avgusta
 umrli_18_februarja,category,umrli 18 februarja
@@ -1383,6 +2010,7 @@ umrli_19_decembra,category,umrli 19 decembra
 umrli_19_februarja,category,umrli 19 februarja
 umrli_19_januarja,category,umrli 19 januarja
 umrli_19_julija,category,umrli 19 julija
+umrli_19_maja,category,umrli 19 maja
 umrli_19_marca,category,umrli 19 marca
 umrli_1_avgusta,category,umrli 1 avgusta
 umrli_1_februarja,category,umrli 1 februarja
@@ -1403,6 +2031,7 @@ umrli_21_aprila,category,umrli 21 aprila
 umrli_21_decembra,category,umrli 21 decembra
 umrli_21_februarja,category,umrli 21 februarja
 umrli_21_januarja,category,umrli 21 januarja
+umrli_21_julija,category,umrli 21 julija
 umrli_21_maja,category,umrli 21 maja
 umrli_21_marca,category,umrli 21 marca
 umrli_21_novembra,category,umrli 21 novembra
@@ -1419,12 +2048,15 @@ umrli_23_februarja,category,umrli 23 februarja
 umrli_23_januarja,category,umrli 23 januarja
 umrli_23_maja,category,umrli 23 maja
 umrli_23_marca,category,umrli 23 marca
+umrli_23_oktobra,category,umrli 23 oktobra
 umrli_24_aprila,category,umrli 24 aprila
 umrli_24_decembra,category,umrli 24 decembra
 umrli_24_maja,category,umrli 24 maja
+umrli_24_novembra,category,umrli 24 novembra
 umrli_24_oktobra,category,umrli 24 oktobra
 umrli_24_septembra,category,umrli 24 septembra
 umrli_25_decembra,category,umrli 25 decembra
+umrli_25_julija,category,umrli 25 julija
 umrli_25_junija,category,umrli 25 junija
 umrli_25_maja,category,umrli 25 maja
 umrli_25_novembra,category,umrli 25 novembra
@@ -1433,6 +2065,7 @@ umrli_26_aprila,category,umrli 26 aprila
 umrli_26_avgusta,category,umrli 26 avgusta
 umrli_26_decembra,category,umrli 26 decembra
 umrli_26_februarja,category,umrli 26 februarja
+umrli_26_julija,category,umrli 26 julija
 umrli_26_junija,category,umrli 26 junija
 umrli_26_maja,category,umrli 26 maja
 umrli_26_marca,category,umrli 26 marca
@@ -1441,8 +2074,11 @@ umrli_27_aprila,category,umrli 27 aprila
 umrli_27_decembra,category,umrli 27 decembra
 umrli_27_februarja,category,umrli 27 februarja
 umrli_27_januarja,category,umrli 27 januarja
+umrli_27_junija,category,umrli 27 junija
+umrli_27_maja,category,umrli 27 maja
 umrli_27_marca,category,umrli 27 marca
 umrli_27_oktobra,category,umrli 27 oktobra
+umrli_28_decembra,category,umrli 28 decembra
 umrli_28_januarja,category,umrli 28 januarja
 umrli_28_junija,category,umrli 28 junija
 umrli_28_maja,category,umrli 28 maja
@@ -1474,6 +2110,7 @@ umrli_30_marca,category,umrli 30 marca
 umrli_30_novembra,category,umrli 30 novembra
 umrli_31_avgusta,category,umrli 31 avgusta
 umrli_31_decembra,category,umrli 31 decembra
+umrli_31_januarja,category,umrli 31 januarja
 umrli_31_julija,category,umrli 31 julija
 umrli_31_marca,category,umrli 31 marca
 umrli_3_avgusta,category,umrli 3 avgusta
@@ -1491,6 +2128,7 @@ umrli_4_maja,category,umrli 4 maja
 umrli_4_marca,category,umrli 4 marca
 umrli_4_novembra,category,umrli 4 novembra
 umrli_5_avgusta,category,umrli 5 avgusta
+umrli_5_decembra,category,umrli 5 decembra
 umrli_5_januarja,category,umrli 5 januarja
 umrli_5_maja,category,umrli 5 maja
 umrli_5_novembra,category,umrli 5 novembra
@@ -1518,8 +2156,10 @@ umrli_9_marca,category,umrli 9 marca
 umrli_9_novembra,category,umrli 9 novembra
 umrli_leta_1256,category,umrli leta 1256
 umrli_leta_1303,category,umrli leta 1303
+umrli_leta_1425,category,umrli leta 1425
 umrli_leta_1447,category,umrli leta 1447
 umrli_leta_1468,category,umrli leta 1468
+umrli_leta_1471,category,umrli leta 1471
 umrli_leta_1519,category,umrli leta 1519
 umrli_leta_1549,category,umrli leta 1549
 umrli_leta_1586,category,umrli leta 1586
@@ -1537,17 +2177,23 @@ umrli_leta_1786,category,umrli leta 1786
 umrli_leta_1788,category,umrli leta 1788
 umrli_leta_1790,category,umrli leta 1790
 umrli_leta_1793,category,umrli leta 1793
+umrli_leta_1797,category,umrli leta 1797
 umrli_leta_1801,category,umrli leta 1801
+umrli_leta_1805,category,umrli leta 1805
 umrli_leta_1810,category,umrli leta 1810
+umrli_leta_1813,category,umrli leta 1813
 umrli_leta_1816,category,umrli leta 1816
 umrli_leta_1819,category,umrli leta 1819
 umrli_leta_1827,category,umrli leta 1827
+umrli_leta_1832,category,umrli leta 1832
 umrli_leta_1835,category,umrli leta 1835
 umrli_leta_1836,category,umrli leta 1836
 umrli_leta_1837,category,umrli leta 1837
+umrli_leta_1839,category,umrli leta 1839
 umrli_leta_1843,category,umrli leta 1843
 umrli_leta_1844,category,umrli leta 1844
 umrli_leta_1847,category,umrli leta 1847
+umrli_leta_1848,category,umrli leta 1848
 umrli_leta_1849,category,umrli leta 1849
 umrli_leta_1850,category,umrli leta 1850
 umrli_leta_1851,category,umrli leta 1851
@@ -1654,6 +2300,7 @@ umrli_leta_1972,category,umrli leta 1972
 umrli_leta_1974,category,umrli leta 1974
 umrli_leta_1975,category,umrli leta 1975
 umrli_leta_1977,category,umrli leta 1977
+umrli_leta_1979,category,umrli leta 1979
 umrli_leta_1980,category,umrli leta 1980
 umrli_leta_1981,category,umrli leta 1981
 umrli_leta_1982,category,umrli leta 1982
@@ -1684,62 +2331,104 @@ umrli_leta_2016,category,umrli leta 2016
 umrli_leta_2021,category,umrli leta 2021
 umrli_leta_2023,category,umrli leta 2023
 umrli_leta_2025,category,umrli leta 2025
+umrli_leta_60,category,umrli leta 60
 umrli_na_rojstni_dan,category,umrli na rojstni dan
 umrli_pred_manj_kot_70_leti,category,umrli pred manj kot 70 leti
 umrli_pred_vec_kot_70_leti,category,umrli pred vec kot 70 leti
 umrli_v_30_letih,category,umrli v 30 letih
 urban_jarnik,category,urban jarnik
+utopija,category,utopija
 v_islandscini,category,v islandscini
 v_javni_domeni,category,v javni domeni
 v_javni_lasti,category,v javni lasti
+vaclav_kliment_klicpera,category,vaclav kliment klicpera
 vaclav_kosmak,category,vaclav kosmak
+vaje_1854,category,vaje 1854
+vaje_1855,category,vaje 1855
 valentin_bernik,category,valentin bernik
+valentin_cundric,category,valentin cundric
+valentin_mandelc,category,valentin mandelc
 valentin_orozen,category,valentin orozen
 valentin_stanic,category,valentin stanic
 valentin_vodnik,category,valentin vodnik
 valentin_zarnik,category,valentin zarnik
 vanja_strle,category,vanja strle
+velika_vojna,category,velika vojna
+venceslav_bril,category,venceslav bril
 vera_albreht,category,vera albreht
 vera_lestan,category,vera lestan
+veronika_deseniska,category,veronika deseniska
+veronika_repinc_bajric,category,veronika repinc bajric
 verzologija,category,verzologija
+vici,category,vici
 victor_von_b,category,victor von b
+vid_ambrozic,category,vid ambrozic
+vid_pecjak,category,vid pecjak
 vida_jeraj,category,vida jeraj
 vida_taufer,category,vida taufer
 vigred,category,vigred
+viktor_erzen,category,viktor erzen
 viktorija_zmaga_glogovec,category,viktorija zmaga glogovec
 vinko_kosak,category,vinko kosak
+vinko_moderndorfer_1894,category,vinko moderndorfer 1894
+vinko_moderndorfer_1958,category,vinko moderndorfer 1958
+vitan_mal,category,vitan mal
 vitomil_zupan,category,vitomil zupan
 vitomir_feodor_jelenc,category,vitomir feodor jelenc
 vladimir_bartol,category,vladimir bartol
+vladimir_brezovnik,category,vladimir brezovnik
 vladimir_iljic_uljanov,category,vladimir iljic uljanov
 vladimir_levstik,category,vladimir levstik
+vladimir_nazor,category,vladimir nazor
+vohunski_romani,genre,vohunski romani
+vojna,category,vojna
 vojna_tematika,category,vojna tematika
 vrbsko_jezero,category,vrbsko jezero
+vrtec,category,vrtec
 vsi_avtorji,category,vsi avtorji
 vsi_naslovi,category,vsi naslovi
+wadysaw_stanisaw_reymont,category,wadysaw stanisaw reymont
+walter_scott,category,walter scott
+werner_mehler,category,werner mehler
 william_chambers_morrow,category,william chambers morrow
+zabavna_knjiznica,category,zabavna knjiznica
+zadrugar,category,zadrugar
+zahodne_ture,category,zahodne ture
 zakaj_zato,category,zakaj zato
+zakoni_republike_slovenije,category,zakoni republike slovenije
+zapeljivka,category,zapeljivka
 zbirka_slovenskih_leposlovnih_besedil,category,zbirka slovenskih leposlovnih besedil
 zbornik_matice_slovenske,category,zbornik matice slovenske
+zborovska_glasba,publication,zborovska glasba
+zbrano_delo,category,zbrano delo
 zbrano_delo_2,category,zbrano delo 2
+zbrano_delo_ii_srecko_kosovel,category,zbrano delo ii srecko kosovel
 zdenka_obal,category,zdenka obal
 zdenka_zebre,category,zdenka zebre
 zdravje,category,zdravje
 zdravko_dusa,category,zdravko dusa
 zdravko_ocvirk,category,zdravko ocvirk
 zdravljica,category,zdravljica
+zdravstvo,category,zdravstvo
 zdruzene_drzave_amerike,category,zdruzene drzave amerike
 zelezar,category,zelezar
 zena_in_dom,category,zena in dom
 zenska_literatura,category,zenska literatura
 zenski_casopisi,publication,zenski casopisi
 zenski_list,publication,zenski list
+zenski_roman,genre,zenski roman
 zenski_svet,category,zenski svet
+zgodnja_danica,category,zgodnja danica
 zgodovina,category,zgodovina
+zgodovina_trente,category,zgodovina trente
+ziga_laykauf,category,ziga laykauf
+ziga_zois,category,ziga zois
 zima_vrscaj_holy,category,zima vrscaj holy
 ziveci_avtorji,category,ziveci avtorji
 zlata_volaric,category,zlata volaric
 znamenje_na_plesi,category,znamenje na plesi
+znanstvena_fantastika,category,znanstvena fantastika
+zofija_podlipska,category,zofija podlipska
 zofka_kveder,category,zofka kveder
 zora,category,zora
 zoran_bozic,category,zoran bozic

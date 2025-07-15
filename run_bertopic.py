@@ -1,54 +1,35 @@
 #!/usr/bin/env python3
-"""run_bertopic.py – CPU‑friendly BERTopic pipeline for large Slovene corpus
+"""run_bertopic.py – GPU/CPU‑friendly BERTopic pipeline for a large Slovene corpus
 
-This script embeds your cleaned documents with **paraphrase‑multilingual‑MPNet‑base‑v2**
-(768‑dim, higher quality than MiniLM), stores them as a **memory‑mapped file** so
-RAM never spikes, and then fits **BERTopic** with UMAP + HDBSCAN.
+Features
+--------
+* **Sentence‑Transformer embeddings** with automatic CUDA fallback (RTX 2000 Ada
+  will be used if available).
+* **Memory‑mapped** `(N × 768)` float32 array keeps RAM flat and supports
+  `--resume` after drops.
+* **Configurable** batch size, workers, UMAP dimension, and HDBSCAN parameters.
+* **1‑click output** of the BERTopic model plus quick‑inspection CSVs.
 
-It’s designed for an 8‑core i7 with 16 GB RAM and can run unattended for a
-few hours. Checkpoints mean you can resume halfway if SSH drops.
-
----------------------------------------------------------------------
-Quick start (inside your virtualenv):
-
-    pip install bertopic[visualization] sentence-transformers
-
-    # docs.txt = one cleaned document per line (≤ 512 tokens each).
-    python run_bertopic.py docs.txt --output slovene_topics
-
----------------------------------------------------------------------
-Command‑line flags
-------------------
---docs           Path to a text file with *one document per line* (UTF‑8).
---model          Sentence‑Transformer model (default: multilingual MPNet).
---batch-size     How many docs to embed at once (default 32 – safe on 16 GB).
---workers        CPU cores for embedding & BERTopic (default: os.cpu_count()).
---umap-dim       Dimensionality reduction target (default 5 – keeps RAM low).
---min-cluster    HDBSCAN min_cluster_size (default 25).
---output         Directory where checkpoints & final BERTopic model live.
---resume         If present, skips embedding chunks already on disk.
-
-Outputs
--------
-<output>/embeddings.dat        memory‑mapped float32 array (N × 768)
-<output>/bertopic_model/       saved BERTopic model (topic_model.save())
-<output>/topics.csv            doc‑to‑topic mapping for quick inspection
-
----------------------------------------------------------------------
-"""
+Quick start
+-----------
+```bash
+pip install bertopic[visualization] sentence-transformers umap-learn hdbscan
+python run_bertopic.py docs.txt --output slovene_topics --batch-size 256
+```"""
 from __future__ import annotations
 
 import argparse
-import math
-import mmap
 import os
 import sys
+import time
 from pathlib import Path
-from time import perf_counter
 from typing import List
 
 import numpy as np
+import torch
 from sentence_transformers import SentenceTransformer
+from umap import UMAP
+from hdbscan import HDBSCAN
 from bertopic import BERTopic
 from bertopic.representation import KeyBERTInspired
 
@@ -57,27 +38,27 @@ from bertopic.representation import KeyBERTInspired
 # ---------------------------------------------------------------------------
 
 def read_docs(path: Path) -> List[str]:
+    """Load non‑empty lines from a UTF‑8 file."""
     with path.open("r", encoding="utf-8", errors="ignore") as fh:
         return [line.rstrip("\n") for line in fh if line.strip()]
 
 
-def ensure_dir(p: Path):
+def ensure_dir(p: Path) -> None:
     p.mkdir(parents=True, exist_ok=True)
-
 
 # ---------------------------------------------------------------------------
 # Main driver
 # ---------------------------------------------------------------------------
 
-def main(argv: List[str] | None = None):
-    ap = argparse.ArgumentParser(description="CPU‑friendly BERTopic runner")
+def main(argv: List[str] | None = None) -> None:
+    ap = argparse.ArgumentParser(description="BERTopic runner (GPU‑accelerated if available)")
     ap.add_argument("docs", help="Path to UTF‑8 file with one document per line")
     ap.add_argument("--output", default="bertopic_run", help="Output directory")
     ap.add_argument("--model", default="paraphrase-multilingual-mpnet-base-v2")
-    ap.add_argument("--batch-size", type=int, default=32)
-    ap.add_argument("--workers", type=int, default=os.cpu_count() or 4)
-    ap.add_argument("--umap-dim", type=int, default=5)
-    ap.add_argument("--min-cluster", type=int, default=25)
+    ap.add_argument("--batch-size", type=int, default=128, help="Embedding outer batch size")
+    ap.add_argument("--workers", type=int, default=os.cpu_count() or 4, help="CPU cores")
+    ap.add_argument("--umap-dim", type=int, default=5, help="UMAP components")
+    ap.add_argument("--min-cluster", type=int, default=25, help="HDBSCAN min_cluster_size")
     ap.add_argument("--resume", action="store_true", help="Skip already‑saved embedding chunks")
     args = ap.parse_args(argv)
 
@@ -85,7 +66,7 @@ def main(argv: List[str] | None = None):
     ensure_dir(out_dir)
 
     # ---------------------------------------------------------------------
-    # 1. Load / prepare documents
+    # 1. Load documents
     # ---------------------------------------------------------------------
     docs_path = Path(args.docs)
     docs = read_docs(docs_path)
@@ -93,71 +74,92 @@ def main(argv: List[str] | None = None):
     print(f"Loaded {n_docs:,} documents from {docs_path}.")
 
     # ---------------------------------------------------------------------
-    # 2. Create memmap file for embeddings (768‑dim float32)
+    # 2. Prepare memory‑mapped embeddings array (70 MB for 22 k docs)
     # ---------------------------------------------------------------------
     emb_path = out_dir / "embeddings.dat"
     emb_shape = (n_docs, 768)
-    emb_map = np.memmap(emb_path, dtype="float32", mode="r+" if emb_path.exists() else "w+", shape=emb_shape)
+    emb_map = np.memmap(
+        emb_path,
+        dtype="float32",
+        mode="r+" if emb_path.exists() else "w+",
+        shape=emb_shape,
+    )
+    if not emb_path.exists():
+        emb_map[:] = 0  # ensure zero‑init so resume check works
+        emb_map.flush()
 
     # ---------------------------------------------------------------------
-    # 3. Sentence‑Transformer embeddings in batches
+    # 3. Sentence‑Transformer embeddings
     # ---------------------------------------------------------------------
-    model = SentenceTransformer(args.model, device="cpu")
-    model.max_seq_length = 512  # truncate long docs automatically
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Embedding device: {device}")
+    model = SentenceTransformer(args.model, device=device)
+    model.max_seq_length = 512
 
-    start = perf_counter()
-    batch = args.batch_size
-    for start_idx in range(0, n_docs, batch):
-        end_idx = min(start_idx + batch, n_docs)
+    outer_batch = args.batch_size
+    inner_batch = outer_batch if device == "cuda" else max(outer_batch // 2, 8)
+
+    start = time.perf_counter()
+    for start_idx in range(0, n_docs, outer_batch):
+        end_idx = min(start_idx + outer_batch, n_docs)
         if args.resume and not np.all(emb_map[start_idx:end_idx] == 0):
-            # skip chunk already on disk (cheap non‑zero check)
-            continue
+            continue  # already done
         chunk_docs = docs[start_idx:end_idx]
         emb = model.encode(
             chunk_docs,
-            batch_size=batch // 2,  # half of outer for memory safety
+            batch_size=inner_batch,
             show_progress_bar=False,
             normalize_embeddings=True,
         ).astype("float32")
         emb_map[start_idx:end_idx] = emb
         emb_map.flush()
-        done = end_idx / n_docs * 100
-        print(f"Embeddings {end_idx}/{n_docs} ({done:4.1f} %)", end="\r", flush=True)
+        pct = end_idx / n_docs * 100
+        print(f"Embeddings {end_idx}/{n_docs} ({pct:5.1f} %)", end="\r", flush=True)
 
-    print(f"\n✓ Embeddings complete in {(perf_counter() - start)/60:.1f} min.")
+    print(f"\n✓ Embeddings complete in {(time.perf_counter() - start)/60:.1f} min.")
 
     # ---------------------------------------------------------------------
-    # 4. Fit BERTopic (UMAP + HDBSCAN) – this part uses RAM but fits in 16 GB
+    # 4. Fit BERTopic
     # ---------------------------------------------------------------------
+    print("Fitting BERTopic … (this may take a while)")
+    umap_model = UMAP(
+        n_neighbors=15,
+        n_components=args.umap_dim,
+        min_dist=0.0,
+        metric="cosine",
+        random_state=42,
+    )
+    hdb_model = HDBSCAN(
+        min_cluster_size=args.min_cluster,
+        min_samples=5,
+        metric="euclidean",
+        core_dist_n_jobs=args.workers,
+    )
+
     topic_model = BERTopic(
-        umap_model={
-            "n_neighbors": 15,
-            "n_components": args.umap_dim,
-            "min_dist": 0.0,
-            "metric": "cosine",
-            "random_state": 42,
-        },
-        hdbscan_model={
-            "min_cluster_size": args.min_cluster,
-            "min_samples": 5,
-            "metric": "euclidean",
-        },
+        embedding_model=model,
+        umap_model=umap_model,
+        hdbscan_model=hdb_model,
         language="multilingual",
         calculate_probabilities=False,
         nr_topics="auto",
         verbose=True,
-        nr_candidates=20,
-        representation_model=KeyBERTInspired()
+        representation_model=KeyBERTInspired(),
+        low_memory=False,
     )
 
-    print("Fitting BERTopic … (this may take a couple of hours)")
-    topics, probs = topic_model.fit_transform(docs, embeddings=emb_map)
+    topics, _ = topic_model.fit_transform(docs, embeddings=emb_map)
 
-    topic_model.save(out_dir / "bertopic_model")
-    np.save(out_dir / "topics.npy", np.array(topics, dtype="int32"))
-    print("✓ BERTopic model saved to", out_dir)
+    # ---------------------------------------------------------------------
+    # 5. Persist outputs
+    # ---------------------------------------------------------------------
+    model_dir = out_dir / "bertopic_model"
+    topic_model.save(model_dir)
+    print("✓ BERTopic model saved to", model_dir)
 
-    # Quick per‑doc mapping CSV (id,topic)
+    topics_np = np.array(topics, dtype="int32")
+    np.save(out_dir / "topics.npy", topics_np)
+
     csv_path = out_dir / "topics.csv"
     with csv_path.open("w", encoding="utf-8") as fh:
         for idx, t in enumerate(topics):
