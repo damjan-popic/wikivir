@@ -25,8 +25,6 @@ lda_grid/
 outputs/
 slovene_lda_gpu/
 slovene_topics/
-slovene_topics_full
-
+slovene_topics_full/
+corpus/
 categorize/promote_poem_genre.py
-corpus/corpus.xml
-docs.txt
