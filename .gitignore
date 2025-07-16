@@ -27,3 +27,5 @@ slovene_lda_gpu/
 slovene_topics/
 slovene_topics_full
 
+categorize/promote_poem_genre.py
+corpus/corpus.xml
